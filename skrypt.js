@@ -225,7 +225,7 @@ function validateForm()
 	var ID = document.getElementById('faculty').value
 	localStorage.setItem("FacultyID", ID);
 	
-	window.location.replace("https://anias98.github.io/strona-do-PL/result.html");
+	window.open("https://anias98.github.io/strona-do-PL/result.html");
 	
 }
 
