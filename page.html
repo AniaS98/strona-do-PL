@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+	<link rel="stylesheet" media="screen" href="style.css"/>
+	<head>
+		
+		<script type="text/javascript" src="D:/adm/Documents/STUDIA/V Semestr/Praca Licencjacka/Strona/skrypt.js" async></script>
+
+		<meta charset="utf-8" /><!--definicja kodowania znaków dla serwisu -->
+		<title>Job Finder</title><!-- tytuł serwisu -->
+		
+ 
+		<meta name="author" content="Anna Szmit" /><!-- nazwa autora serwisu -->
+		<meta name="keywords" content="" /><!-- słowa kluczowe serwisu -->
+		<meta name="description" content="Znajdź swoją pierwszą pracę po AGH!" /><!-- opis serwisu -->
+
+	</head>
+  <body>
+  
+	<nav>
+		<h1 class="navbar_header">MENU</h1>
+		<ul>
+			<li><a href="page.html">Strona Główna</a></li>
+			<li><a href="listaKierunkow.html">Lista Dostępnych kierunków</a></li>
+			<li><a href="analizowaneStrony.html">Analizowane strony</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<div id="opis">
+			<h2>Na czym to polega</h2>
+			<p> Strona została stworzona by pomóc studentom AGH znależć pracę po lub w trakcie studiów.  </p>
+		</div>
+		<form name="formularz" action="result.html" onsubmit="return validateForm()" method="post">
+		
+			<label for="wydzial" class="form_label">Wybierz wydział:</label>
+			<select id="department" name="department" onchange="faculties(this)" required="required">
+				<option value="base">Wybierz</option>
+				<option value="WGiG">Wydział Górnictwa i Geoinżynierii</option>
+				<option value="WIMiIP">Wydział Inżynierii Metali i Informatyki Przemysłowej</option>
+				<option value="WEAIiIB">Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej</option>
+				<option value="WIEiT">Wydział Informatyki, Elektroniki i Telekomunikacji</option>
+				<option value="WIMiR">Wydział Inżynierii Mechanicznej i Robotyki</option>
+				<option value="WGGiOS">Wydział Geologii, Geofizyki i Ochrony Środowiska</option>
+				<option value="WGGiIS">Wydział Geodezji Górniczej i Inżynierii Środowiska</option>
+				<option value="WIMiC">Wydział Inżynierii Materiałowej i Ceramiki</option>
+				<option value="WO">Wydział Odlewnictwa</option>
+				<option value="WMN">Wydział Metali Nieżelaznych</option>
+				<option value="WWNiG">Wydział Wiertnictwa, Nafty i Gazu</option>
+				<option value="WZ">Wydział Zarządzania</option>
+				<option value="WEiP">Wydział Energetyki i Paliw</option>
+				<option value="WFiIS">Wydział Fizyki i Informatyki Stosowanej</option>
+				<option value="WMS">Wydział Matematyki Stosowanej</option>
+				<option value="WH">Wydział Humanistyczny</option>
+			</select>
+			<br>	
+			
+			<label for="kierunek" class="form_label">Wybierz kierunek:</label>
+			<select id="faculty" name="faculty" onchange="warrant(this)" required="required">	
+				<option value="base">Wybierz</option>
+			</select>
+			
+			<br>
+			<label for="stopien" class="form_label">Wybierz stopień naukowy:</label>
+			<select id="degree" name="degree" required="required">	
+				<option value="base">Wybierz</option>
+				<option value="lic">Licencjat</option>
+				<option value="inz">Inżynier</option>
+				<option value="mag">Magister</option>
+			</select>
+			<br>
+			
+			<label id="warrantLabel" for="uprawnieniaform", hidden=true>Czy masz dodatkowe uprawnienia związane ze swoim kierunkiem studiów?</label>
+			<select id="uprawnienia" name="uprawnienia", hidden=true>	
+				<option value="base">Wybierz</option>
+			</select>
+				
+			<br>
+			<button value="submit" type="submit">Do dzieła!</button>
+			
+			
+		
+		</div>	
+
+	</section>
+	
+		
+	
+	
+  </body>
+</html>
+

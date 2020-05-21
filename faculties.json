@@ -1,0 +1,710 @@
+ {
+  "WGiG": [
+    
+    {
+      "id": "WGiG_B",
+      "name": "Budownictwo",
+      "warrant": "0",
+      "key": [
+        "projektant budowlany",
+        "konstruktor budowlany",
+        "inźynier nadzowu",
+        "inźynier budowy",
+        "specjalista elementów budowlanych",
+        "specjalista procesu budowlanego"
+      ]
+    },
+    {
+      "id": "WGiG_IG",
+      "name": "Inżynieria Górnicza",
+      "warrant": "0",
+      "key": [
+        "inżynierskie zakłady górnicze",
+        "technika strzałowa",
+        "wzbogacania kopalin",
+        "wentylacja kopalń",
+        "klimatyzacja kopalń",
+        "technologia górnicza"
+      ]
+    },
+    {
+      "id": "WGiG_IiZPP",
+      "name": "Inżynieria i Zarządzanie Procesami Przemysłowymi",
+      "warrant": "0",
+      "key": [
+        "inżynier produkcji",
+        "menadżer bhp",
+        "doradca finansowy",
+        "audytor",
+        "planista",
+        "controlling",
+        "zarządzanie jakością",
+        "CSR",
+        "Lean Management",
+        "organizacja produkcji",
+        "zarządzanie środowiskowe",
+        "inżynier procesu",
+        "inżynier produktu"
+      ]
+    },
+    {
+      "id": "WGiG_IKS",
+      "name": "Inżynieria Kształtowania Środowiska",
+      "warrant": "0",
+      "key": [
+        "technologii odzysku",
+        "inżynieria środowiska",
+        "gospodarka odpadami",
+        "dane przestrzenne",
+        "sieci wentylacyjne",
+        "roboty sanitarne",
+        "gospodarka odpadami",
+        "kierownik budowy",
+        "branża sanitarna",
+        "inspektor ochrony środowiska",
+        "oczyszczalnia ścieków"
+
+      ]
+    },
+    {
+      "id": "WGiG_RTZ",
+      "name": "Rewitalizacja Terenów Zdegredowanych",
+      "warrant": "0",
+      "key": [
+        "górnictwo",
+        "rekultywacja",
+        "restrukturyzacja",
+        "recykling",
+        "gospodarka odpadami"
+      ]
+    }
+  ],
+  "WIMiIP": [
+
+    {
+      "id": "WIMiIP_M",
+      "name": "Metalurgia",
+      "warrant": "0",
+      "key": [
+        "przetwórstwo metali",
+        "metalurgia"
+      ]
+    },
+    {
+      "id": "WIMiIP_IM",
+      "name": "Inżynieria Materiałowa",
+      "warrant": "0",
+      "key": [
+        "projektowanie maszyn",
+        "inżynier nadzoru",
+        "inżynier materiałowy",
+        "wytwarzanie",
+        "energetyka",
+        "przemysł lotniczy",
+        "przemysł samochodowy",
+        "elektronika",
+        "ekspert materiałowy",
+        "obróbka cieplna",
+        "spawanie",
+        "spajanie",
+        "inżynier materiałowy",
+        "materiały ogniotrwałe"
+      ]
+    },
+    {
+      "id": "WIMiIP_ETI",
+      "name": "Edukacja Techniczno-informatyczna",
+      "warrant": "0",
+      "key": [
+        "inżynieria materiałowa",
+        "wytwarzanie",
+        "specjalista bezpieczeństwa",
+        "programista",
+        "inżynier oprogramowania",
+        "administrator baz danych",
+        "webmaster",
+        "grafik",
+        "komputerowy",
+        "CAD",
+        "CAM",
+        "nauczyciel informatyki"
+      ]
+    },
+    {
+      "id": "WIMiIP_IT",
+      "name": "Informatyka Techniczna",
+      "warrant": "0",
+      "key": [
+        "administrator baz danych",
+        "programista",
+        "administrator systemów informatycznych",
+        "administrator systemów operacyjnych",
+        "symulacje numeryczne",
+        "projektant zabezpieczeń",
+        "projektant sieci komputerowych",
+        "projektant oprogramowania przemysłowego"
+      ]
+    },
+    {
+      "id": "WIMiIP_IO",
+      "name": "Inżynieria Obliczeniowa",
+      "warrant": "0",
+      "key": [
+        "algorytmy numeryczne",
+        "sparametryzowane modele numeryczne",
+        "programista",
+        "administrator systemów informatycznych"
+      ]
+    },
+    {
+      "id": "WIMiIP_IC",
+      "name": "Inżynieria Ciepła",
+      "warrant": "0",
+      "key": [
+        "maszyny energetyczne",
+        "ocena energetyczna",
+        "energetyka",
+        "energia odnawialna",
+        "gospodarka biomasowa",
+        "biomasa",
+        "tester materiałowy",
+        "badania materiałowe"
+      ]
+    }
+  ],
+  "WEAIiIB": [
+
+    {
+      "id": "WEAIiIB_AiR",
+      "name": "Automatyka i Robotyka",
+      "warrant": "0",
+      "key": [
+        "automatyka",
+        "monitorowanie",
+        "diagnostyka",
+        "robot",
+        "CNC",
+        "PLC",
+        "SCADA",
+        "administrator sieci komputerowych",
+        "administracja państwowa"
+      ]
+    },
+    {
+      "id": "WEAIiIB_E",
+      "name": "Elektrotechnika",
+      "warrant": "0",
+      "key": [
+        "elektrotechnika",
+        "elektroenergetyka",
+        "metrologia elektryczna",
+        "metrologia nieelektryczna",
+        "energoelektronika",
+        "napęd elektryczny",
+        "technika wysokich napięć",
+        "sieć elektryczna",
+        "badania symulacyjne",
+        "energetyka odnawialna",
+        "maszyny elektryczne",
+        "PLC",
+        "mikroprocesory",
+        "FPGA",
+        "automatyka budynkowa",
+        "metody numeryczne",
+        "elektrotermia",
+        "technika oświetleniowa",
+        "teoria sterowania"
+      ]
+    },
+    {
+      "id": "WEAIiIB_IB",
+      "name": "Inżynieria Biomedyczna",
+      "warrant": "0",
+      "key": [
+        "konstruktor biomedyczny",
+        "inżynier kliniczny",
+        "biomedycyna"
+      ]
+    },
+    {
+      "id": "WEAIiIB_I",
+      "name": "Informatyka",
+      "warrant": "0",
+      "key": [
+        "inżynier oprogramowania",
+        "architekt oprogramowania",
+        "programista",
+        "software developer",
+        "administrator",
+        "konsultant IT"
+      ]
+    },
+    {
+      "id": "WEAIiIB_MwTiM",
+      "name": "Mikroelektronika w Technice i Medycynie",
+      "warrant": "0",
+      "key": [
+        "mikrosystemy",
+        "układ scalony",
+        "projektant",
+        "aparatura pomiarowa",
+        "aparatura medyczna",
+        "elektronik",
+        "elektronika samochodowa",
+        "programista"
+      ]
+    },
+    {
+      "id": "WEAIiIB_CS",
+      "name": "Computer Science",
+      "warrant": "0",
+      "key": [
+        "inżynier oprogramowania",
+        "architekt oprogramowania",
+        "programista",
+        "software developer",
+        "administrator",
+        "konsultant IT"
+      ]
+    }
+  ],
+  "WIEiT": [
+
+    {
+      "id": "WIEiT_E",
+      "name": "Elektronika",
+      "warrant": "0",
+      "key": [
+        "transmisja danych",
+        "dozor linii produkcyjnych",
+        "instalacje energetyczne",
+        "urządzenia multimedialne",
+        "urządzenia medyczne",
+        "systemy pokładowe pojazdów",
+        "zabezpieczenia elektroniczne",
+        "urządzenia elektryczne",
+        "układy scalone"
+      ]
+    },
+    {
+      "id": "WIEiT_EiT",
+      "name": "Elektronika i Telekomunikacja",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIEiT_I",
+      "name": "Informatyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIEiT_T",
+      "name": "Teleinformatyla",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIEiT_C",
+      "name": "Cyberbezpieczeństwo",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIEiT_NTwK",
+      "name": "Nowoczesne Technologie w Kryminalistyce",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIEiT_EaT",
+      "name": "Electronics and Telecommunications",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WIMiR": [
+
+    {
+      "id": "WIMiR_MiBD",
+      "name": "Mechanika i Budowa Maszyn",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiR_APiR",
+      "name": "Automatyka Przemysłowa i Robotyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiR_IM",
+      "name": "Inżynieria Mechatroniczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiR_IA",
+      "name": "Inżynieria Akustyczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiR_IMiM",
+      "name": "Inżynieria Mechaniczna i Materiałowa",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiR_ME",
+      "name": "Mechatronic Engineering",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WGGiOS": [
+
+    {
+      "id": "WGGiOS_EZE",
+      "name": "Ekologiczne Źródła Energii",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiOS_Gf",
+      "name": "Geofizyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiOS_Gi",
+      "name": "Geoinformatyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiOS_GS",
+      "name": "Geologia Stosowana",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiOS_IiOS",
+      "name": "Inżynieria i Ochrona Środowiska",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiOS_Gt",
+      "name": "Geoturystyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WGGiIS": [
+
+    {
+      "id": "WGGiIS_GiK",
+      "name": "Geodezja i Kartografia",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiIS_G",
+      "name": "Geoinformacja",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WGGiIS_IiMS",
+      "name": "Inżynieria i Monitoring Środowiska",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WIMiC": [
+
+    {
+      "id": "WIMiC_TC",
+      "name": "Technologia Chemiczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiC_IM",
+      "name": "Inżynieria Materiałowa",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiC_C",
+      "name": "Ceramika",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WIMiC_CB",
+      "name": "Chemia Budowlana",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WO": [
+
+    {
+      "id": "WO_IPO",
+      "name": "Inżynieria Procesów Odlewniczych",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WO_KWPI",
+      "name": "Komputerowe Wspomaganie Procesów Inżynierskich",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WO_TiTM",
+      "name": "Tworzywa i Technologie Motoryzacyjne",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WMN": [
+
+    {
+      "id": "WMN_RiM",
+      "name": "Recykling i Metalurgia",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WMN_IMN",
+      "name": "Inżynieria Metali Nieżelaznych",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WMN_IPiJ",
+      "name": "Inżynieria Produkcji i Jakości",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WWNiG": [
+
+    {
+      "id": "WWNiG_GiGO",
+      "name": "Geoinżynieria i Górnictwo Otworowe",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WWNiG_INiG",
+      "name": "Inżynieria Naftowa i Gazownicza",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WZ": [
+
+    {
+      "id": "WZ_Z",
+      "name": "Zarządzanie",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WZ_ZiIP",
+      "name": "Zarządzanie i Inżynieria Produkcji",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WZ_IiE",
+      "name": "Informatyka i Ekonometria",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WEiP": [
+
+    {
+      "id": "WEiP_TC",
+      "name": "Technologia Chemiczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WEiP_E",
+      "name": "Energetyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WEiP_EOiZE",
+      "name": "Energetyka Odnawialna i Zarządzanie Energią",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WEiP_PiS",
+      "name": "Paliwa i Środowiska",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WFiIS": [
+
+    {
+      "id": "WFiIS_FM",
+      "name": "Fizyka Medyczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WFiIS_FT",
+      "name": "Fizyka Techniczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WFiIS_IS",
+      "name": "Informatyka Stosowana",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WFiIS_MiNwB",
+      "name": "Mikro- i Nanotechnologie w Biofizyce",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WMS": [
+
+    {
+      "id": "WMS_M",
+      "name": "Matematyka",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+  "WH": [
+
+    {
+      "id": "WH_K",
+      "name": "Kulturoznawstwo",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WH_S",
+      "name": "Socjologia",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    },
+    {
+      "id": "WH_IS",
+      "name": "Informatyka Społeczna",
+      "warrant": "0",
+      "key": [
+        "puste"
+      ]
+    }
+  ],
+		}
