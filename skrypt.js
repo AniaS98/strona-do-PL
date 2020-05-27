@@ -188,22 +188,6 @@ function faculties(selelctedVal)
 	}
 };
 
-function warrant(selelctedVal)
-{
-	//alert("Warrant działa");
-	if(selelctedVal.value === "WGGiIS_GiK")
-	{
-		var myLabel = document.getElementById("warrantLabel");
-		myLabel.hidden=false;
-		
-		var myParent = document.getElementById("warrant");
-		myParent.hidden=false;
-		
-		myParent.options[1] = new Option("Tak", "Tak");
-		myParent.options[2] = new Option("Nie", "Nie");
-	}
-};
-
 function validateForm()
 {
 	if(document.getElementById('department').value == "base")
