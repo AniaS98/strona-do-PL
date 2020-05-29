@@ -20,160 +20,19 @@ var facultiesData = {
 	
 function faculties(selelctedVal)
 {
-	//alert("Faculty działa");
 	var data = facultiesData; 
 	var val = selelctedVal.value;
 			
 	var vals = new Array();
 	var ids = new Array();
 		
-	switch(val)
+	var library = data[val];
+	for(var element in library)
 	{
-		case "WGiG":
-		{
-			for(var element in data.WGiG)
-			{
-				vals.push([data.WGiG[element].name]);
-				ids.push([data.WGiG[element].id]);
-			}
-			break;
-		}
-		case "WIMiIP":
-		{
-			for(var element in data.WIMiIP)
-			{
-				vals.push([data.WIMiIP[element].name]);
-				ids.push([data.WIMiIP[element].id]);
-			}
-			break;
-		}
-		case "WEAIiIB":
-		{
-			for(var element in data.WEAIiIB)
-			{
-				vals.push([data.WEAIiIB[element].name]);
-				ids.push([data.WEAIiIB[element].id]);
-			}
-			break;
-		}
-		case "WIEiT":
-		{
-			for(var element in data.WIEiT)
-			{
-				vals.push([data.WIEiT[element].name]);
-				ids.push([data.WIEiT[element].id]);
-			}
-			break;
-		}
-		case "WIMiR":
-		{
-			for(var element in data.WIMiR)
-			{
-				vals.push([data.WIMiR[element].name]);
-				ids.push([data.WIMiR[element].id]);
-			}
-			break;
-		}
-		case "WGGiOS":
-		{
-			for(var element in data.WGGiOS)
-			{
-				vals.push([data.WGGiOS[element].name]);
-				ids.push([data.WGGiOS[element].id]);
-			}
-			break;
-		}
-		case "WGGiIS":
-		{
-			for(var element in data.WGGiIS)
-			{
-				vals.push([data.WGGiIS[element].name]);
-				ids.push([data.WGGiIS[element].id]);
-			}
-			break;
-		}
-		case "WIMiC":
-		{
-			for(var element in data.WIMiC)
-			{
-				vals.push([data.WIMiC[element].name]);
-				ids.push([data.WIMiC[element].id]);
-			}
-			break;
-		}
-		case "WO":
-		{
-			for(var element in data.WO)
-			{
-				vals.push([data.WO[element].name]);
-				ids.push([data.WO[element].id]);
-			}
-			break;
-		}
-		case "WMN":
-		{
-			for(var element in data.WMN)
-			{
-				vals.push([data.WMN[element].name]);
-				ids.push([data.WMN[element].id]);
-			}
-			break;
-		}
-		case "WWNiG":
-		{
-			for(var element in data.WWNiG)
-			{
-				vals.push([data.WWNiG[element].name]);
-				ids.push([data.WWNiG[element].id]);
-			}
-			break;
-		}
-		case "WZ":
-		{
-			for(var element in data.WZ)
-			{
-				vals.push([data.WZ[element].name]);
-				ids.push([data.WZ[element].id]);
-			}
-			break;
-		}
-		case "WEiP":
-		{
-			for(var element in data.WEiP)
-			{
-				vals.push([data.WEiP[element].name]);
-				ids.push([data.WEiP[element].id]);
-			}
-			break;
-		}
-		case "WFiIS":
-		{
-			for(var element in data.WFiIS)
-			{
-				vals.push([data.WFiIS[element].name]);
-				ids.push([data.WFiIS[element].id]);
-			}
-			break;
-		}
-		case "WMS":
-		{
-			for(var element in data.WMS)
-			{
-				vals.push([data.WMS[element].name]);
-				ids.push([data.WMS[element].id]);
-			}
-			break;
-		}
-		case "WH":
-		{
-			for(var element in data.WH)
-			{
-				vals.push([data.WH[element].name]);
-				ids.push([data.WH[element].id]);
-			}
-			break;
-		}			
-	}
+		vals.push([library[element].name]);
+		ids.push([library[element].id]);
+	}	
+	
 	var i;
 	for(i=0;i<vals.length;i++)
 	{
@@ -183,7 +42,6 @@ function faculties(selelctedVal)
 	var j=i+1;
 	for(i++;i<size;i++)
 	{
-		//alert(i);
 		document.getElementById('faculty').remove(j);
 	}
 };
