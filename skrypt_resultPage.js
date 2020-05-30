@@ -5,14 +5,17 @@ window.onload = function()
 	
 	var outContent ={"offers":[]};
 	var counter = 0;
-
-	let github_link = 'https://anias98.github.io/strona-do-PL/wyniki.json';
 	
-	var data;
-	$.getJSON(github_link, function(json){
-		data = json;
-		
-	});	
+	var data=(function() {
+		var json = null;
+		$ajax({
+			'async':false,
+			'global':false,
+			'url':"https://anias98.github.io/strona-do-PL/wyniki.json",
+			'dataType': "json",
+			'success': function(json){
+		data = json;});	
+		})();
 	
 	
 	
