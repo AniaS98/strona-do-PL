@@ -8,8 +8,9 @@ window.onload = function()
 
 	let github_link = 'https://anias98.github.io/strona-do-PL/wyniki.json';
 	
-	$.getJSON(github_link, function(data){
-		console.log(data)
+	var data;
+	$.getJSON(github_link, function(json){
+		data = json;
 		
 	});	
 	
