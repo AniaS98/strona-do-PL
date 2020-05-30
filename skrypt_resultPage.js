@@ -6,17 +6,13 @@ window.onload = function()
 	var outContent ={"offers":[]};
 	var counter = 0;
 
-	var oXHR = new XMLHttpRequest();
-
-    oXHR.onreadystatechange = reportStatus;
-    oXHR.open("GET", "wyniki.json", true);  // get json file.
-    oXHR.send();
-
-    function reportStatus() {
-        if (oXHR.readyState == 4) {		// Check if request is complete.
-            data = this.responseText;
-        }
-    }	
+	fetch("wyniki.json")
+		.then(function(resp){
+			return resp.json();
+		})
+	.then(function(jsondata){
+		data = jsondata;
+	});
 
 	
 	
