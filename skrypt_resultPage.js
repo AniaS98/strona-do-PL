@@ -6,7 +6,7 @@ window.onload = function()
 	var outContent ={"offers":[]};
 	var counter = 0;
 
-	fetch("wyniki.json")
+	fetch("https://anias98.github.io/strona-do-PL/wyniki.json")
 		.then(function(resp){
 			return resp.json();
 		})
