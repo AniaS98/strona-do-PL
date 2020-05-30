@@ -16,7 +16,7 @@ window.onload = function()
 			'success': function(json){
 			data = json;}	
 		});
-	})();
+	});
 	
 	
 	
