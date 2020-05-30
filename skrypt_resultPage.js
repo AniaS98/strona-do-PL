@@ -14,8 +14,9 @@ window.onload = function()
 			'url':"https://anias98.github.io/strona-do-PL/wyniki.json",
 			'dataType': "json",
 			'success': function(json){
-		data = json;});	
-		})();
+			data = json;};	
+		});
+	})();
 	
 	
 	
