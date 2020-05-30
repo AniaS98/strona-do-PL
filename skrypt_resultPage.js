@@ -6,17 +6,12 @@ window.onload = function()
 	var outContent ={"offers":[]};
 	var counter = 0;
 
-	var data =fetch("https://anias98.github.io/strona-do-PL/wyniki.json")
-		.then(function(resp){
-			return resp.json();
-		})
-	.then(function(jsondata){
-		data = jsondata;
-	});
-
+	let github_link = 'https://anias98.github.io/strona-do-PL/wyniki.json';
 	
-	
-	
+	$.getJSON(github_link, function(data){
+		console.log(data)
+		
+	});	
 	
 	
 	
