@@ -72,10 +72,10 @@ function getJSON() {
 
 
 var library ={
-  "WGiG_B": [ "1", "2", "3", "4", "5", "6" ],
-  "WGiG_IG": [ "7", "8", "9", "10", "11", "12" ],
-  "WGiG_IiZPP": [ "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25" ],
-  "WGiG_IKS": [ "26", "27", "28", "29", "30", "31", "28", "32", "33", "34", "35" ],
+  "WGiG_B ": [ "1", "2", "3", "4", "5", "6" ],
+  "WGiG_IG ": [ "7", "8", "9", "10", "11", "12" ],
+  "WGiG_IiZPP ": [ "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25" ],
+  "WGiG_IKS ": [ "26", "27", "28", "29", "30", "31", "28", "32", "33", "34", "35" ],
   "WGiG_RTZ": [ "36", "37", "38", "39", "28" ],
   "WIMiIP_M": [ "40", "41" ],
   "WIMiIP_IM": [ "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56" ],
@@ -142,6 +142,7 @@ var library ={
   "WH_S": [ "453", "452", "454", "455", "456", "457", "458", "459", "460", "461", "462", "463", "464", "465", "466", "467", "468", "469" ],
   "WH_IS": [ "470", "471", "472", "473", "462", "474", "475", "476", "477", "478", "479", "480", "481", "482", "483", "484", "114", "485", "486", "487", "488", "463", "489", "490", "62" ]
 }
+
 
 var datavar={
   "0": [
@@ -9451,7 +9452,7 @@ var datavar={
   "448": [],
   "449": [],
   "450": [],
-  "451": [],    
+  "451": [],
   "452": [
     {
       "name": "Dziennikarz / specjalizacja język angielski",
@@ -10039,21 +10040,16 @@ var datavar={
   "467": [
     {
       "name": "Risk Manager",
-      "company": "",
-      "urls": "Brown Brothers Harriman"
+      "company": "Brown Brothers Harriman",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhqcnL7Z32D0mKD8hW9DUcGT8WJoTOsPdEBkmF4hDmllWxS0mNMYMMqzaJR70liAw7mj5_uYczh1Z92FdQFj766M2Y700dFDrfAl84FeDMJ34i41-2_74n3MXRp-RYuKEEGpoNCezaicAKzvtos6FXKjIWGZTeKw4En8ZOoL6F6Z3fZFdIfOL-kMsuVG_tWJbIssxrv-y17_ozwdak1JQGwMT0u6QHzut8f9JDvWidMLT4cKVUfPWcyShPG3jdmwXY4hEZoXizk_K78pmDVO1f_ebsJXcfeSsnbI9WwEJDA0td5NKLiaVtGm3Clp8m_2Q49gFgErv2fScZ0qriw1R4RMmKbXDckhXDEzGEYtknOc6LSs9wg_1sZ2m0I-i-9u06Ad5l62Hmw0tlja7eHtzxcyDbOvtf4bUWYVO3VzInqvJfW4cNywJ5ETxc4naH6QquwsMI_TLh4STark7Y1ZeZw4vxPjxnjh2_Cl1N8DrMfrLbZj6Tv9-WiCS42vA_pt5fu_xojNbvyQOfDv6BIa4Vet7Gc5T2hvd2-LUBvsWSX1MIlQmk9dHGNzbOt77Bd8swzz8LaZKSa8tmcb467PoJCwYXr0oBVzcKIyv1piFoAH5I-t9Kxt6kLgSUMvFrdcsOUn8nbGe7mXBrqj0a5KQM7vvLiChHE7J3-pQLKtPw8OzCwznN5lJOrQuQGTPMadvOw==&p=0&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhqcnL7Z32D0mKD8hW9DUcGT8WJoTOsPdEBkmF4hDmllWxS0mNMYMMqzaJR70liAw7mj5_uYczh1Z92FdQFj766M2Y700dFDrfAl84FeDMJ34i41-2_74n3MXRp-RYuKEEGpoNCezaicAKzvtos6FXKjIWGZTeKw4En8ZOoL6F6Z3fZFdIfOL-kMsuVG_tWJbIssxrv-y17_ozwdak1JQGwMT0u6QHzut8f9JDvWidMLT4cKVUfPWcyShPG3jdmwXY4hEZoXizk_K78pmDVO1f_ebsJXcfeSsnbI9WwEJDA0td5NKLiaVtGm3Clp8m_2Q49gFgErv2fScZ0qriw1R4RMmKbXDckhXDEzGEYtknOc6LSs9wg_1sZ2m0I-i-9u06Ad5l62Hmw0tlja7eHtzxcyDbOvtf4bUWYVO3VzInqvJfW4cNywJ5ETxc4naH6QquwsMI_TLh4STark7Y1ZeZw4vxPjxnjh2_Cl1N8DrMfrLbZj6Tv9-WiCS42vA_pt5fu_xojNbvyQOfDv6BIa4Vet7Gc5T2hvd2-LUBvsWSX1MIlQmk9dHGNzbOt77Bd8swzz8LaZKSa8tmcb467PoJCwYXr0oBVzcKIyv1piFoAH5I-t9Kxt6kLgSUMvFrdcsOUn8nbGe7mXBrqj0a5KQM7vvLiChHE7J3-pQLKtPw8OzCwznN5lJOrQuQGTPMadvOw==&p=0&fvj=0&vjs=3",
-      "company": "OTC Operations Manager with English",
-      "urls": ""
+      "name": "OTC Operations Manager with English",
+      "company": "Accenture Operations",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNXKcDS5cKXxOvF3do241ohkpYK4FpUOSVbwiFtbU4hhKW5YtfioQNaDhmw1afF05PY_1KLZIxHZBDRhFPekN4Cwom67K3B6ScO-RTKyAYqElouc_2uVlwx32VA2nrxaFLg73f4hYYaoAQdtapE2ECSLxARoTamVthB5X2oQvC5p0Sy77kuTLEXp5K-AOr72BO2ejjv6JSkB38kYGSfFIxpJ0KeAFCHmG4rCLXKHYppBMergfWdT2oYZjdA2iupCX4WAhWRyI1-jD28E3Xjvx985XcPyBAlF-EcqP4Vyd8PA7wzZqOn8tFe12-fnVKQxMjcOInezv2CbUR39NJnrvFp6-DX550WSK4fY7DX9KIuwO-m7Vhm6mlAtvFTcTjDB-IR0BSo9ofdnnQRx640drkXB2m5gT-3gECgqW1XRu3np51jMC0zElG38tHdnauBt7xPkyD-2VTcgzy6ILMqcDvjRMzZ2tciz3jb3BHrPpCUdkmbJs3Y3IvjHOxci1VY7-gPMadsfqgidFWAcGw8tsqh_eoS9VocY738HQNoSN03g1dq3O7CdKl9TFD4TCY4O0HdYmsYXWNp5CU22E7-9AoXrGUTprZtt_-A7fyJtewCRGYQG_zU1pFYKxm8nTB76uT04EMiRt-Zzyg==&p=1&fvj=0&vjs=3"
     },
     {
-      "name": "Accenture Operations",
-      "company": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNXKcDS5cKXxOvF3do241ohkpYK4FpUOSVbwiFtbU4hhKW5YtfioQNaDhmw1afF05PY_1KLZIxHZBDRhFPekN4Cwom67K3B6ScO-RTKyAYqElouc_2uVlwx32VA2nrxaFLg73f4hYYaoAQdtapE2ECSLxARoTamVthB5X2oQvC5p0Sy77kuTLEXp5K-AOr72BO2ejjv6JSkB38kYGSfFIxpJ0KeAFCHmG4rCLXKHYppBMergfWdT2oYZjdA2iupCX4WAhWRyI1-jD28E3Xjvx985XcPyBAlF-EcqP4Vyd8PA7wzZqOn8tFe12-fnVKQxMjcOInezv2CbUR39NJnrvFp6-DX550WSK4fY7DX9KIuwO-m7Vhm6mlAtvFTcTjDB-IR0BSo9ofdnnQRx640drkXB2m5gT-3gECgqW1XRu3np51jMC0zElG38tHdnauBt7xPkyD-2VTcgzy6ILMqcDvjRMzZ2tciz3jb3BHrPpCUdkmbJs3Y3IvjHOxci1VY7-gPMadsfqgidFWAcGw8tsqh_eoS9VocY738HQNoSN03g1dq3O7CdKl9TFD4TCY4O0HdYmsYXWNp5CU22E7-9AoXrGUTprZtt_-A7fyJtewCRGYQG_zU1pFYKxm8nTB76uT04EMiRt-Zzyg==&p=1&fvj=0&vjs=3",
-      "urls": "Collections Regional Manager (shift 15.00 - 23.30)"
-    },
-    {
-      "name": "",
+      "name": "Collections Regional Manager (shift 15.00 - 23.30)",
       "company": "Accenture Operations",
       "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNWvzOIbTqu5DOdPssPVp6ofBBoZc0p8PDNmjjso5-YCtb8Hqi6EBLVd_SYKmnF4ECfj8wFoU8MmiDvxesY2b33lDvri2rgL2oERA3kIFUPsQUrl0Tc33zS63enaOB_je-cmUFUtAPuLhV9DqLYimWDbgKglMkhgJ4Ld9k6jtgJWV9txmSn6v1Nds_wjOZrIU59n3ue2IvyhNyegLg-5sCZAGsX28bKavXVzscRhcegpSYCwKIMdGtwf1rkmDIWbZ51XLL6i5UQYt4FMANIOlCLKk_LG82Kw4fz2BaI81rBHfZQI-mjL166zONtjPLYv6z3QJGgJpCOBq-T4zLDnMtmkQdhibjVdWUl6B1quv0k8eMfaDNa6lTmRWl3EglwitV7bkTQdOe4X-dXDmA0tVirQvyqx6WUwAFgl1m4fZem0-6JZEcKVfbC0-BSWyC2REa4ZWYVo79CDhqh17P2BfXVGP0F2iYHpir4angpOrZsXiiCRWoIPtq8EJ30oaCHQ1OcpyGzGNLVvdFDCBngoK1oWzeUnKCXoHUf7F8tWLrrFGI_FgqFAeP54x_WesVdSf83rqYgPzbgSHh9fjGyhWnSqtA10a1w_Ogwha9cPl5FSWycyRBbAC--oYhbxQPThJbzOOy8wyQ0dwbJTg_v5GlSQ&p=2&fvj=0&vjs=3"
     },
@@ -10064,46 +10060,41 @@ var datavar={
     },
     {
       "name": "Sales Support Team Manager",
-      "company": "",
-      "urls": "PepsiCo"
+      "company": "PepsiCo",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1bb4f1edd9688a74&fccid=2973259ddc967948&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=1bb4f1edd9688a74&fccid=2973259ddc967948&vjs=3",
-      "company": "CSR and Communications Internship",
-      "urls": ""
+      "name": "CSR and Communications Internship",
+      "company": "UBS",
+      "urls": "https://pl.indeed.com//rc/clk?jk=c63c24a76f90ee5c&fccid=1c76c3a36f6c7557&vjs=3"
     },
     {
-      "name": "UBS",
-      "company": "https://pl.indeed.com//rc/clk?jk=c63c24a76f90ee5c&fccid=1c76c3a36f6c7557&vjs=3",
-      "urls": "TEAM"
+      "name": "TEAM",
+      "company": "Pragmatic Coders",
+      "urls": "https://pl.indeed.com//rc/clk?jk=c9c4c99adb4009f6&fccid=c1b8ef077cc6a8a5&vjs=3"
     },
     {
-      "name": "Pragmatic Coders",
-      "company": "https://pl.indeed.com//rc/clk?jk=c9c4c99adb4009f6&fccid=c1b8ef077cc6a8a5&vjs=3",
-      "urls": "Alliance Manager"
+      "name": "Alliance Manager",
+      "company": "Ardigen",
+      "urls": "https://pl.indeed.com//rc/clk?jk=62be891a69ab27ba&fccid=0caf54c974d1fc7f&vjs=3"
     },
     {
-      "name": "Ardigen",
-      "company": "https://pl.indeed.com//rc/clk?jk=62be891a69ab27ba&fccid=0caf54c974d1fc7f&vjs=3",
-      "urls": "ICFR (SOX) Manager"
+      "name": "ICFR (SOX) Manager",
+      "company": "Zurich Insurance Group",
+      "urls": "https://pl.indeed.com//rc/clk?jk=55dd493e244fc77d&fccid=40f6e1ba1aac8472&vjs=3"
     },
     {
-      "name": "Zurich Insurance Group",
-      "company": "https://pl.indeed.com//rc/clk?jk=55dd493e244fc77d&fccid=40f6e1ba1aac8472&vjs=3",
-      "urls": "Content Manager"
+      "name": "Content Manager",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f906cf3cfe85651a&fccid=a7f110d3869433f8&vjs=3"
     },
     {
-      "name": "Admind",
-      "company": "https://pl.indeed.com//rc/clk?jk=f906cf3cfe85651a&fccid=a7f110d3869433f8&vjs=3",
-      "urls": "Duty Operations Manager - Krakow"
+      "name": "Duty Operations Manager - Krakow",
+      "company": "Discovery Communications",
+      "urls": "https://pl.indeed.com//rc/clk?jk=a98e8ee03e26eac8&fccid=f17180ffbe436a3c&vjs=3"
     },
     {
-      "name": "Discovery Communications",
-      "company": "https://pl.indeed.com//rc/clk?jk=a98e8ee03e26eac8&fccid=f17180ffbe436a3c&vjs=3",
-      "urls": "CTO Agile Team Manager"
-    },
-    {
-      "name": "",
+      "name": "CTO Agile Team Manager",
       "company": "Motorola Solutions",
       "urls": "https://pl.indeed.com//rc/clk?jk=e3d0616dede13931&fccid=22ec6ef3cc441ac2&vjs=3"
     },
@@ -10119,46 +10110,36 @@ var datavar={
     },
     {
       "name": "Project Manager (Oracle Implementation), Kraków",
-      "company": "",
-      "urls": "HCL Poland"
+      "company": "HCL Poland",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNVZRp1cHiLMIyfGfv4W-qwsFNne80MuK0PtSXbveIGk8VUruT5JcsLI--AJop4jcTqB9I77vvKHy9MJzxvF65D3c6isI3BIgVfC4Galde5CXvKdmJEff-zdHAoaJSVFn1X5UBgQ3txaDdra2khzj_66AAGdXrL2bLiYyK6u7-OXCtRpQkVsjW3hx7DXR5EZ7dfmSbYp5PLAtoqKRNg1mbIddyXoUrj4ZvEZQJ1NvSlAgW2QfdqWzBMIEtEdbi118_FwbOIusybZEL5sVRvee6cihXAPBHRQr-ycOOR3XBUWU7fEdOofCU_0iOGqytkZcwy86NvuEBwcwEahxVJ0wNkm1vU6wBF0PXE2yN_lemCleRUkQUMCckEK_-TxJMWlO1XLjlXacwM-qrlLYwcsuaXszujR2Nb0NJT0ln8SkKs8vg5EZJIs4jONXvz9rHaoc20gDquX8Bej60H8PipyjyhJg-MqwXc99QLY5fsVyQFiWZ_YP_Rk9u21gBM-ZN_15qTOB24K8A1Kc7YbmZ2JS6Nyds-i8mDxPXIWEK4JdJQA9rXTSfVATL43thhXqnVf0NgpmHADPPI8ttFbKKRIQJ0uMz1fxzu5e7sTXHsVf3xbLQd0xjTT8udnXq0n9wfPKhyxmfQddZYJaA==&p=14&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNVZRp1cHiLMIyfGfv4W-qwsFNne80MuK0PtSXbveIGk8VUruT5JcsLI--AJop4jcTqB9I77vvKHy9MJzxvF65D3c6isI3BIgVfC4Galde5CXvKdmJEff-zdHAoaJSVFn1X5UBgQ3txaDdra2khzj_66AAGdXrL2bLiYyK6u7-OXCtRpQkVsjW3hx7DXR5EZ7dfmSbYp5PLAtoqKRNg1mbIddyXoUrj4ZvEZQJ1NvSlAgW2QfdqWzBMIEtEdbi118_FwbOIusybZEL5sVRvee6cihXAPBHRQr-ycOOR3XBUWU7fEdOofCU_0iOGqytkZcwy86NvuEBwcwEahxVJ0wNkm1vU6wBF0PXE2yN_lemCleRUkQUMCckEK_-TxJMWlO1XLjlXacwM-qrlLYwcsuaXszujR2Nb0NJT0ln8SkKs8vg5EZJIs4jONXvz9rHaoc20gDquX8Bej60H8PipyjyhJg-MqwXc99QLY5fsVyQFiWZ_YP_Rk9u21gBM-ZN_15qTOB24K8A1Kc7YbmZ2JS6Nyds-i8mDxPXIWEK4JdJQA9rXTSfVATL43thhXqnVf0NgpmHADPPI8ttFbKKRIQJ0uMz1fxzu5e7sTXHsVf3xbLQd0xjTT8udnXq0n9wfPKhyxmfQddZYJaA==&p=14&fvj=0&vjs=3",
-      "company": "Internal Control Expert",
-      "urls": ""
+      "name": "Internal Control Expert",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhqDUsVUkfH4EkrN84Gz9KZxfTNKGDbceuFgVKP__EcoUq1VCYNkQ2Mt2fu7q3ynIywXEnKyFHdVb47sP44_nhLig9wWvYGUl-9rd1Zf-LUTDjEaft7Ob3NhDL0RNVt191Ts7sTvXCffMGH1AcmX8Xnk88pKMkcn0fxBCRFsQuKm-6qxa0Hfpylvihz0AN9npbBmwKi8Ep4BzdC9K7UsI3AyUz4s1HyrC5aeQ0PK9WuCDxM3E2wrnAZPhcSHqhFdo5vyJ9OPPp54v30sUS04dJYuAKvst8NYtK7LLTU62fX8XDzk2SYyxrwh_BJrs5hR1z7_O3X_v0PuLdr8HDyn3UTNhG6_fU5DcjfWj-V-xKNHTbPaOQlcOWHTEl9OZo27NXAs-Yv_zsmEqwSSVlnfbVREASVfSt2OrIMy268ftlYTbpOC9WV1dAHULwrhhqW9zq2EvF1lMWbSCuakyDPVckukSwKIZDduW6lsyF2rEyYHB9NMc9xvbOciGwMYbUW0dgIKwcbr4OWn_-Fkhw8gbf88wxq4K2fCypg3h0qoeTMtrq6C_hwFmclL3BxrRrLRjDdKzSRn2D0nMEX8O51U8v-R50WHLYpvPZa_t_JhBq8X-zb3Gs4znnqMA5H3XsuUlNfv998q3wLxSPD95ddi8_KrOTGwOPKryAg==&p=1&fvj=0&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhqDUsVUkfH4EkrN84Gz9KZxfTNKGDbceuFgVKP__EcoUq1VCYNkQ2Mt2fu7q3ynIywXEnKyFHdVb47sP44_nhLig9wWvYGUl-9rd1Zf-LUTDjEaft7Ob3NhDL0RNVt191Ts7sTvXCffMGH1AcmX8Xnk88pKMkcn0fxBCRFsQuKm-6qxa0Hfpylvihz0AN9npbBmwKi8Ep4BzdC9K7UsI3AyUz4s1HyrC5aeQ0PK9WuCDxM3E2wrnAZPhcSHqhFdo5vyJ9OPPp54v30sUS04dJYuAKvst8NYtK7LLTU62fX8XDzk2SYyxrwh_BJrs5hR1z7_O3X_v0PuLdr8HDyn3UTNhG6_fU5DcjfWj-V-xKNHTbPaOQlcOWHTEl9OZo27NXAs-Yv_zsmEqwSSVlnfbVREASVfSt2OrIMy268ftlYTbpOC9WV1dAHULwrhhqW9zq2EvF1lMWbSCuakyDPVckukSwKIZDduW6lsyF2rEyYHB9NMc9xvbOciGwMYbUW0dgIKwcbr4OWn_-Fkhw8gbf88wxq4K2fCypg3h0qoeTMtrq6C_hwFmclL3BxrRrLRjDdKzSRn2D0nMEX8O51U8v-R50WHLYpvPZa_t_JhBq8X-zb3Gs4znnqMA5H3XsuUlNfv998q3wLxSPD95ddi8_KrOTGwOPKryAg==&p=1&fvj=0&vjs=3",
-      "urls": "Marketing Automation Specialist"
-    },
-    {
-      "name": "",
+      "name": "Marketing Automation Specialist",
       "company": "Shell Business Operations",
       "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhrtRRmQ3h3W1lCx0Yy-pvYR-A1MCk8gST0MuH8VKnK208x3urzkuDK4Lx5qezC7tsPxvLD6HVthH2NE227vee5N1Kh4CwyJ4vtd9xp640vYUXhUmSzuGuBt9rgUFBXiQm3eu3_xedZZDpbtmeHKfBQb3FM8BRX8_Rr_7NSR-FCQDMVxn8lWPt8aAnClq-AdGKtXOcKV84nwjwPvSTU4ZIEfJXLHmac5cSDvMYZHwwmV1DJRuCY7VA_iATYvS3MOaKKpjFvb2ktdyi4cHJVkcD7oPtUT6_huYJc0xeGiqxSUcfPiFuKaiW5_RSe2eStyqlQJAO2bsFtezOwZtToO2VLLrqWnm9VWExDhZ4EH5wdfkygcJoCGTUfKsDy392sHKQmYrtsgtcy5gtsjycpE3mFz5aLEF_PWDqzrxMyBmeDMDvjuCXCe9AF5SGMUHrLOVVckrPmXSDnXfkzgVqibmI7t7WDP3ZfAAL1ehoFOMpNnqLr7Rm7moZ3_vtsMX1wOnFnWGfLUYhfxY_DpMEchexlGzmExWXOZrclaS8N7txtzeDQfy6rXP715FC393xu83v_QxeaAO0LkNg-3xA8__Y_Ijj2kQIwdnAXCBLcQ8b2qEYsGmft2k0RdO64M4KY83S-FhQ2wjGx2vZZkbqv2eQZrvXnnVLA-d7w==&p=2&fvj=0&vjs=3"
     },
     {
       "name": "Customer Experience Manager with Dutch",
-      "company": "",
-      "urls": "Shell Business Operations"
+      "company": "Shell Business Operations",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhrtRRmQ3h3W1lCx0Yy-pvYRdcHiuFYu5qH3TC1beWmwv5UJr7ArAih7Izu8bqWC_tpwxDps38QI2R-xszXK2hPrUQY0JvdCMCks-kw_NIEVFs2DC3LLOQgUq6k9ar5AD_gjNUeYBpofQml1-SSmkmgzsx__OTZSHlQHKpQ230P_KmCmk5154q7uMSHEzz1BRowBpilOyEldbBLXIhqjuZ2Ph8gSHXZkRFlqVcTMFq5AcXd1B77ZOo_rfoLiahi832tlLYdtjrhQwhmI9DsvZ-QlsM0nTc702hz3X7T3W8_DmPjxpFvtOZcbz1PPaAH2sYRfDGwSnObNTdFm8-nNF23FSd2h0cCm9Dx7sS3rU0pQbxslne5Lao6s2VW6reHRFzWy0kYGZUQKR6QsitZ3yMLFw8-ZzorhPb1MXppUAPQOg14VRAp-Uc5Y7jTVS5cK6r2QBAwac_y9mP-cSDbN1NRdFmP_PQhdVZpNHAoP8EJ-Dt2bfZnZ3rZPBM3eOGSHPdHol_AAq6F_1nxtwEoYh-YTNaZgc_UxSH7WyA9Lv9x-WW7RI1nmTb9nBUwjAjgl-SXh3ea_-52qL2UWQXGf41TnfDaQyQiSUp77MikETEP33wnuP1KgXCiWa7UsAa0IKeGEgEuYFu77In4RWTglvLmhWN-ZFlsH8M-30_QLc6EsQ&p=3&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhrtRRmQ3h3W1lCx0Yy-pvYRdcHiuFYu5qH3TC1beWmwv5UJr7ArAih7Izu8bqWC_tpwxDps38QI2R-xszXK2hPrUQY0JvdCMCks-kw_NIEVFs2DC3LLOQgUq6k9ar5AD_gjNUeYBpofQml1-SSmkmgzsx__OTZSHlQHKpQ230P_KmCmk5154q7uMSHEzz1BRowBpilOyEldbBLXIhqjuZ2Ph8gSHXZkRFlqVcTMFq5AcXd1B77ZOo_rfoLiahi832tlLYdtjrhQwhmI9DsvZ-QlsM0nTc702hz3X7T3W8_DmPjxpFvtOZcbz1PPaAH2sYRfDGwSnObNTdFm8-nNF23FSd2h0cCm9Dx7sS3rU0pQbxslne5Lao6s2VW6reHRFzWy0kYGZUQKR6QsitZ3yMLFw8-ZzorhPb1MXppUAPQOg14VRAp-Uc5Y7jTVS5cK6r2QBAwac_y9mP-cSDbN1NRdFmP_PQhdVZpNHAoP8EJ-Dt2bfZnZ3rZPBM3eOGSHPdHol_AAq6F_1nxtwEoYh-YTNaZgc_UxSH7WyA9Lv9x-WW7RI1nmTb9nBUwjAjgl-SXh3ea_-52qL2UWQXGf41TnfDaQyQiSUp77MikETEP33wnuP1KgXCiWa7UsAa0IKeGEgEuYFu77In4RWTglvLmhWN-ZFlsH8M-30_QLc6EsQ&p=3&fvj=0&vjs=3",
-      "company": "Demand Center Manager",
-      "urls": ""
+      "name": "Demand Center Manager",
+      "company": "Shell",
+      "urls": "https://pl.indeed.com//rc/clk?jk=919eb17bd825b859&fccid=167aa4ca2fe7d8e6&vjs=3"
     },
     {
-      "name": "Shell",
-      "company": "https://pl.indeed.com//rc/clk?jk=919eb17bd825b859&fccid=167aa4ca2fe7d8e6&vjs=3",
-      "urls": "Product Manager (Tutoring Team)"
+      "name": "Product Manager (Tutoring Team)",
+      "company": "Brainly",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f91aaf79e429bfcd&fccid=0087ede1ae181969&vjs=3"
     },
     {
-      "name": "Brainly",
-      "company": "https://pl.indeed.com//rc/clk?jk=f91aaf79e429bfcd&fccid=0087ede1ae181969&vjs=3",
-      "urls": "Global Customer Service Manager"
-    },
-    {
-      "name": "",
+      "name": "Global Customer Service Manager",
       "company": "Accenture",
       "urls": "https://pl.indeed.com//rc/clk?jk=17fc9d817015d098&fccid=a4e4e2eaf26690c9&vjs=3"
     },
@@ -10169,71 +10150,61 @@ var datavar={
     },
     {
       "name": "Global Process & Control Improvement Manager",
-      "company": "",
-      "urls": "HEINEKEN Kraków"
+      "company": "HEINEKEN Kraków",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9bb48cdf54aaeebf&fccid=9d3fc2c7bbc80ecb&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=9bb48cdf54aaeebf&fccid=9d3fc2c7bbc80ecb&vjs=3",
-      "company": "Client Success Manager",
-      "urls": "Sofyne"
+      "name": "Client Success Manager",
+      "company": "Sofyne",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b9999e64aef721d6&fccid=64e33cf5dc4a100d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=b9999e64aef721d6&fccid=64e33cf5dc4a100d&vjs=3",
-      "company": "IT Program Manager",
-      "urls": ""
+      "name": "IT Program Manager",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=ef3c8c56cc9c5b26&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=ef3c8c56cc9c5b26&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Product Manager"
+      "name": "Product Manager",
+      "company": "Caspio",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f3f99abdc985be44&fccid=204aafbc9b36f228&vjs=3"
     },
     {
-      "name": "Caspio",
-      "company": "https://pl.indeed.com//rc/clk?jk=f3f99abdc985be44&fccid=204aafbc9b36f228&vjs=3",
-      "urls": "Global Training and Metrics Manager"
+      "name": "Global Training and Metrics Manager",
+      "company": "Splunk",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3be782a1f20f660d&fccid=aef928e89977f7f0&vjs=3"
     },
     {
-      "name": "Splunk",
-      "company": "https://pl.indeed.com//rc/clk?jk=3be782a1f20f660d&fccid=aef928e89977f7f0&vjs=3",
-      "urls": "Senior Facilities Manager"
+      "name": "Senior Facilities Manager",
+      "company": "Railsware Solutions FZ",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1b9df29dcbe1cf7b&fccid=5388737f85b7985c&vjs=3"
     },
     {
-      "name": "Railsware Solutions FZ",
-      "company": "https://pl.indeed.com//rc/clk?jk=1b9df29dcbe1cf7b&fccid=5388737f85b7985c&vjs=3",
-      "urls": "Category Buyer"
-    },
-    {
-      "name": "",
+      "name": "Category Buyer",
       "company": "Aptiv",
       "urls": "https://pl.indeed.com//rc/clk?jk=ac1fb4cae9395e26&fccid=8d390ab1843cb8bd&vjs=3"
     },
     {
       "name": "Power Grids - Configuration Manager",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=8f17c992abd511ba&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=8f17c992abd511ba&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Product Manager",
-      "urls": "WorldRemit"
+      "name": "Product Manager",
+      "company": "WorldRemit",
+      "urls": "https://pl.indeed.com//rc/clk?jk=26be318be11499ce&fccid=507acd357fe68a6f&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=26be318be11499ce&fccid=507acd357fe68a6f&vjs=3",
-      "company": "Business Development Manager (Global Role - remote or HID re...",
-      "urls": "HID Global"
+      "name": "Business Development Manager (Global Role - remote or HID re...",
+      "company": "HID Global",
+      "urls": "https://pl.indeed.com//rc/clk?jk=8799fc40015e66f5&fccid=b51a93b6defb2a2e&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=8799fc40015e66f5&fccid=b51a93b6defb2a2e&vjs=3",
-      "company": "Junior AR Analyst OTC Italian",
-      "urls": ""
+      "name": "Junior AR Analyst OTC Italian",
+      "company": "IBM",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4286adc5a1bb1644&fccid=de71a49b535e21cb&vjs=3"
     },
     {
-      "name": "IBM",
-      "company": "https://pl.indeed.com//rc/clk?jk=4286adc5a1bb1644&fccid=de71a49b535e21cb&vjs=3",
-      "urls": "Junior AR Analyst/ AR Analyst OTC Spanish"
-    },
-    {
-      "name": "",
+      "name": "Junior AR Analyst/ AR Analyst OTC Spanish",
       "company": "IBM",
       "urls": "https://pl.indeed.com//rc/clk?jk=c394da4bf1d0b604&fccid=de71a49b535e21cb&vjs=3"
     },
@@ -10244,46 +10215,36 @@ var datavar={
     },
     {
       "name": "Customer Experience Manager with Dutch",
-      "company": "",
-      "urls": "Shell"
+      "company": "Shell",
+      "urls": "https://pl.indeed.com//rc/clk?jk=260feccc0aa5f271&fccid=167aa4ca2fe7d8e6&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=260feccc0aa5f271&fccid=167aa4ca2fe7d8e6&vjs=3",
-      "company": "Collections Regional Manager (shift 15.00 - 23.30)",
-      "urls": ""
+      "name": "Collections Regional Manager (shift 15.00 - 23.30)",
+      "company": "Accenture",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e391dd9cb8682912&fccid=a4e4e2eaf26690c9&vjs=3"
     },
     {
-      "name": "Accenture",
-      "company": "https://pl.indeed.com//rc/clk?jk=e391dd9cb8682912&fccid=a4e4e2eaf26690c9&vjs=3",
-      "urls": "Manager IT Methods Transformation"
-    },
-    {
-      "name": "",
+      "name": "Manager IT Methods Transformation",
       "company": "Philip Morris International",
       "urls": "https://pl.indeed.com//rc/clk?jk=223e749b80e8beb0&fccid=4141256365dbb7d7&vjs=3"
     },
     {
       "name": "Power Grids - Hub Compensation&Benefits Manager Eastern Euro...",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=0519e95803901c7b&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=0519e95803901c7b&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Network Implementation Manager",
-      "urls": ""
+      "name": "Network Implementation Manager",
+      "company": "Akamai",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5d08568ad2230f76&fccid=9c094dedde5fb497&vjs=3"
     },
     {
-      "name": "Akamai",
-      "company": "https://pl.indeed.com//rc/clk?jk=5d08568ad2230f76&fccid=9c094dedde5fb497&vjs=3",
-      "urls": "Web Content Manager"
+      "name": "Web Content Manager",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9bd2b12f90e69e28&fccid=a7f110d3869433f8&vjs=3"
     },
     {
-      "name": "Admind",
-      "company": "https://pl.indeed.com//rc/clk?jk=9bd2b12f90e69e28&fccid=a7f110d3869433f8&vjs=3",
-      "urls": "Customer Success Specialist Collaboration"
-    },
-    {
-      "name": "",
+      "name": "Customer Success Specialist Collaboration",
       "company": "Cisco Systems",
       "urls": "https://pl.indeed.com//rc/clk?jk=db55569bfff111b6&fccid=dfc44f3b8c44a6db&vjs=3"
     },
@@ -10329,21 +10290,16 @@ var datavar={
     },
     {
       "name": "IS Change Manager",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=0a6c6c32c3da08dd&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=0a6c6c32c3da08dd&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Service Delivery Manager - Salesforce",
-      "urls": ""
+      "name": "Service Delivery Manager - Salesforce",
+      "company": "IBM",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f54b2e3adbb2f40e&fccid=de71a49b535e21cb&vjs=3"
     },
     {
-      "name": "IBM",
-      "company": "https://pl.indeed.com//rc/clk?jk=f54b2e3adbb2f40e&fccid=de71a49b535e21cb&vjs=3",
-      "urls": "Security Technical Project Manager"
-    },
-    {
-      "name": "",
+      "name": "Security Technical Project Manager",
       "company": "Akamai",
       "urls": "https://pl.indeed.com//rc/clk?jk=cde9a8d8aa34cad6&fccid=9c094dedde5fb497&vjs=3"
     },
@@ -10354,26 +10310,21 @@ var datavar={
     },
     {
       "name": "Power Grids - Global IS Service Manager in Quality Domain",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=2669dee0e1731bd3&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=2669dee0e1731bd3&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Associate Project Manager",
-      "urls": "Klient Advisory Group TEST Human Resources"
+      "name": "Associate Project Manager",
+      "company": "Klient Advisory Group TEST Human Resources",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b4b92b1dc5b646f3&fccid=3e41fd04722e7f1d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=b4b92b1dc5b646f3&fccid=3e41fd04722e7f1d&vjs=3",
-      "company": "Junior AR Analyst OTC French",
-      "urls": ""
+      "name": "Junior AR Analyst OTC French",
+      "company": "IBM",
+      "urls": "https://pl.indeed.com//rc/clk?jk=8b87ab12f769b28b&fccid=de71a49b535e21cb&vjs=3"
     },
     {
-      "name": "IBM",
-      "company": "https://pl.indeed.com//rc/clk?jk=8b87ab12f769b28b&fccid=de71a49b535e21cb&vjs=3",
-      "urls": "IT Program Manager"
-    },
-    {
-      "name": "",
+      "name": "IT Program Manager",
       "company": "Philip Morris International Service Center Europe",
       "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNVjPnChRBZnMERNPcTynIfRiordl17P-gMfMQwHMh26EBm3_B-ffofw0W_WgiaYv3dNVt5xiTfystMb5n-GbbHbWzO1hidmudZWNKU_5_TRWXbrJDN79S1hc2wv6L5eJbDNq2SNI5o4-ySMiWuHSZB1ox1oSL_s0SFMQZo9h3cXqFoYn-WfzGfZqzrEg94ZHxKxO2mHJp229P5z_2i526eIePzk2sETPhMBvLlK5zsZcDSuqnPj1vQ-TJK3corpNxe4pj0KvZI1lSPNxAcRgKhYm9vjbJ8cdpnHsrVivDtLcbAHFM6tpHmc-Bip6PtpDAYk14HgYIUZa5UHxsxIpZ3yEfJvLKYahL6UD6df8FhWTVY048G2vrQWvmL09SZigr6b6tGL9QaiEG5LNo_ASVjrmxEcoogQgXBlvsoF-iNWYojtMoT-N1sajjncfgehwJrxgaZqXnHhVumGwVUkFNKiOgTs6hM4nB8T-_xzGi1s3fGmhqXNT4V28I4CYNep2tdLIkPKF-I8Fq2CN0y04x2nTLv8fb93K7-XXGTdnTJLykC96fw7jF-Xlrrrr1PRut688oG2HrLftcG_GC9HGV0-8B7GzeuyWEqfzDiQ0ZJbgg_TAJxBO-RL&p=10&fvj=0&vjs=3"
     },
@@ -10384,96 +10335,81 @@ var datavar={
     },
     {
       "name": "Project Manager IT Methods Transformation",
-      "company": "",
-      "urls": "Philip Morris International"
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=99054ffcffc4070d&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=99054ffcffc4070d&fccid=4141256365dbb7d7&vjs=3",
-      "company": "Global Warehouse and Packaging Manager 80-100%",
-      "urls": ""
+      "name": "Global Warehouse and Packaging Manager 80-100%",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b7bc0a4093e8790d&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=b7bc0a4093e8790d&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "EMEA Logistics Manager"
+      "name": "EMEA Logistics Manager",
+      "company": "Klient Advisory Group TEST Human Resources",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e74d3d5583294b7c&fccid=3e41fd04722e7f1d&vjs=3"
     },
     {
-      "name": "Klient Advisory Group TEST Human Resources",
-      "company": "https://pl.indeed.com//rc/clk?jk=e74d3d5583294b7c&fccid=3e41fd04722e7f1d&vjs=3",
-      "urls": "Senior PR Manager"
+      "name": "Senior PR Manager",
+      "company": "Bidroom Poland",
+      "urls": "https://pl.indeed.com//rc/clk?jk=18700326f3ece834&fccid=3661982007b43fee&vjs=3"
     },
     {
-      "name": "Bidroom Poland",
-      "company": "https://pl.indeed.com//rc/clk?jk=18700326f3ece834&fccid=3661982007b43fee&vjs=3",
-      "urls": "Manager, Finance.Finance & Accounting.Financial Control & An..."
+      "name": "Manager, Finance.Finance & Accounting.Financial Control & An...",
+      "company": "Ansell",
+      "urls": "https://pl.indeed.com//rc/clk?jk=c020932218e61c95&fccid=855ada5a46319c08&vjs=3"
     },
     {
-      "name": "Ansell",
-      "company": "https://pl.indeed.com//rc/clk?jk=c020932218e61c95&fccid=855ada5a46319c08&vjs=3",
-      "urls": "License Business Process Manager"
-    },
-    {
-      "name": "",
+      "name": "License Business Process Manager",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=b41c0ada009670c6&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
       "name": "Power Grids – IS Digital Adoption Manager",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=2d74ef63028ef9af&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=2d74ef63028ef9af&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "PLEC - Project Director",
-      "urls": "Air Liquide"
+      "name": "PLEC - Project Director",
+      "company": "Air Liquide",
+      "urls": "https://pl.indeed.com//rc/clk?jk=fac34a13dfcde33b&fccid=0bfc42f123844c30&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=fac34a13dfcde33b&fccid=0bfc42f123844c30&vjs=3",
-      "company": "Senior Product Manager",
-      "urls": "Railsware Solutions FZ"
+      "name": "Senior Product Manager",
+      "company": "Railsware Solutions FZ",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b1a26f8b9145c41f&fccid=5388737f85b7985c&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=b1a26f8b9145c41f&fccid=5388737f85b7985c&vjs=3",
-      "company": "Strategic Sourcing Analyst - Spanish or Portuguese Speaker (...",
-      "urls": "Hitachi Vantara"
+      "name": "Strategic Sourcing Analyst - Spanish or Portuguese Speaker (...",
+      "company": "Hitachi Vantara",
+      "urls": "https://pl.indeed.com//rc/clk?jk=a7d8192f2b118c4d&fccid=9536dde6bb34eec9&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=a7d8192f2b118c4d&fccid=9536dde6bb34eec9&vjs=3",
-      "company": "Power Grids - Head of Customer Connect Team",
-      "urls": ""
+      "name": "Power Grids - Head of Customer Connect Team",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=fdd67b45c05621ee&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=fdd67b45c05621ee&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "Engineering Team Manager (Configuration Management Core Team..."
-    },
-    {
-      "name": "",
+      "name": "Engineering Team Manager (Configuration Management Core Team...",
       "company": "Aptiv",
       "urls": "https://pl.indeed.com//rc/clk?jk=617b22d01e445391&fccid=8d390ab1843cb8bd&vjs=3"
     },
     {
       "name": "Senior Talent Partner",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=774aba820bf5c07b&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=774aba820bf5c07b&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Power Grids - Strategic IT Vendor Manager",
-      "urls": ""
+      "name": "Power Grids - Strategic IT Vendor Manager",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=12ba922f28e200aa&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=12ba922f28e200aa&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "Procurement Business Process Expert"
+      "name": "Procurement Business Process Expert",
+      "company": "Danish Crown",
+      "urls": "https://pl.indeed.com//rc/clk?jk=53eb823859017842&fccid=f80f74464b038a3f&vjs=3"
     },
     {
-      "name": "Danish Crown",
-      "company": "https://pl.indeed.com//rc/clk?jk=53eb823859017842&fccid=f80f74464b038a3f&vjs=3",
-      "urls": "Senior Internal Control Manager"
-    },
-    {
-      "name": "",
+      "name": "Senior Internal Control Manager",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=78fc7028fc8ec26c&fccid=38b4474838e7b7a1&vjs=3"
     },
@@ -10484,146 +10420,131 @@ var datavar={
     },
     {
       "name": "Marketing Automation Specialist",
-      "company": "",
-      "urls": "Shell"
+      "company": "Shell",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3e0fbc67c95568e5&fccid=167aa4ca2fe7d8e6&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=3e0fbc67c95568e5&fccid=167aa4ca2fe7d8e6&vjs=3",
-      "company": "Global Project Manager of Talent Acquisition and Development",
-      "urls": "Michael Page"
+      "name": "Global Project Manager of Talent Acquisition and Development",
+      "company": "Michael Page",
+      "urls": "https://pl.indeed.com//rc/clk?jk=d693889779268a46&fccid=77087bd1709a8148&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=d693889779268a46&fccid=77087bd1709a8148&vjs=3",
-      "company": "Senior Delivery Manager",
-      "urls": ""
+      "name": "Senior Delivery Manager",
+      "company": "EPAM Systems",
+      "urls": "https://pl.indeed.com//rc/clk?jk=7c959fbf65bf488c&fccid=532afac41b2663f7&vjs=3"
     },
     {
-      "name": "EPAM Systems",
-      "company": "https://pl.indeed.com//rc/clk?jk=7c959fbf65bf488c&fccid=532afac41b2663f7&vjs=3",
-      "urls": "Finance Project Manager"
+      "name": "Finance Project Manager",
+      "company": "Klient Advisory Group TEST Human Resources",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b6a0dadfb078d607&fccid=3e41fd04722e7f1d&vjs=3"
     },
     {
-      "name": "Klient Advisory Group TEST Human Resources",
-      "company": "https://pl.indeed.com//rc/clk?jk=b6a0dadfb078d607&fccid=3e41fd04722e7f1d&vjs=3",
-      "urls": "GL Business Process Expert"
+      "name": "GL Business Process Expert",
+      "company": "Danish Crown",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1014d0dfc859b23c&fccid=f80f74464b038a3f&vjs=3"
     },
     {
-      "name": "Danish Crown",
-      "company": "https://pl.indeed.com//rc/clk?jk=1014d0dfc859b23c&fccid=f80f74464b038a3f&vjs=3",
-      "urls": "R2R Team Leader with French"
+      "name": "R2R Team Leader with French",
+      "company": "TE Connectivity",
+      "urls": "https://pl.indeed.com//rc/clk?jk=480e4ee516fd0a03&fccid=adb7c04d7caa1bd2&vjs=3"
     },
     {
-      "name": "TE Connectivity",
-      "company": "https://pl.indeed.com//rc/clk?jk=480e4ee516fd0a03&fccid=adb7c04d7caa1bd2&vjs=3",
-      "urls": "Power Grids - IS Manager Security Architecture"
-    },
-    {
-      "name": "",
+      "name": "Power Grids - IS Manager Security Architecture",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=48ef3b45ef1e6dfe&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
       "name": "Technical Enablement Architect",
-      "company": "",
-      "urls": "Akamai"
+      "company": "Akamai",
+      "urls": "https://pl.indeed.com//rc/clk?jk=bed70b761bbe28c3&fccid=9c094dedde5fb497&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=bed70b761bbe28c3&fccid=9c094dedde5fb497&vjs=3",
-      "company": "InfoSec Analyst Risk Awareness",
-      "urls": ""
+      "name": "InfoSec Analyst Risk Awareness",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9ae39cf3803b8f46&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=9ae39cf3803b8f46&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Customer Experience Engineer - Collaboration (Customer Succe..."
-    },
-    {
-      "name": "",
+      "name": "Customer Experience Engineer - Collaboration (Customer Succe...",
       "company": "Cisco Systems",
       "urls": "https://pl.indeed.com//rc/clk?jk=33f7a65e9d3eead3&fccid=dfc44f3b8c44a6db&vjs=3"
     },
     {
       "name": "Power Grids - ERP Master Data Manager",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=29d7eccdab0557d9&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=29d7eccdab0557d9&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "CRM & Lead Generation Manager",
-      "urls": "Goodminds"
+      "name": "CRM & Lead Generation Manager",
+      "company": "Goodminds",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3ae9b6871fb43fab&fccid=11f0d4057730c23d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=3ae9b6871fb43fab&fccid=11f0d4057730c23d&vjs=3",
-      "company": "Business Development Manager (HR Solutions)",
-      "urls": "Klient Advisory Group TEST Human Resources"
+      "name": "Business Development Manager (HR Solutions)",
+      "company": "Klient Advisory Group TEST Human Resources",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1fe408682bda58b8&fccid=3e41fd04722e7f1d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=1fe408682bda58b8&fccid=3e41fd04722e7f1d&vjs=3",
-      "company": "Delivery Lead",
-      "urls": "HRO Digital"
+      "name": "Delivery Lead",
+      "company": "HRO Digital",
+      "urls": "https://pl.indeed.com//company/HRO-Digital/jobs/Delivery-Lead-886e6c2ba3c53aea?fccid=a625a1c5dd0c3aed&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//company/HRO-Digital/jobs/Delivery-Lead-886e6c2ba3c53aea?fccid=a625a1c5dd0c3aed&vjs=3",
-      "company": "IT Buyer",
-      "urls": "Hays"
+      "name": "IT Buyer",
+      "company": "Hays",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5015a8e3d058ce00&fccid=31670bef3ae6497b&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=5015a8e3d058ce00&fccid=31670bef3ae6497b&vjs=3",
-      "company": "Junior Ruby on Rails Developer",
-      "urls": "Railwaymen"
+      "name": "Junior Ruby on Rails Developer",
+      "company": "Railwaymen",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3ee2b30b299dfdcc&fccid=ea407b3586382717&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=3ee2b30b299dfdcc&fccid=ea407b3586382717&vjs=3",
-      "company": "Team Lead",
-      "urls": "Working Smart Limited"
+      "name": "Team Lead",
+      "company": "Working Smart Limited",
+      "urls": "https://pl.indeed.com//rc/clk?jk=a0e31eef6dd61352&fccid=eb81f98123301883&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=a0e31eef6dd61352&fccid=eb81f98123301883&vjs=3",
-      "company": "Workday Financials Data Solutions Lead Consultant",
-      "urls": "Alight"
+      "name": "Workday Financials Data Solutions Lead Consultant",
+      "company": "Alight",
+      "urls": "https://pl.indeed.com//rc/clk?jk=193a7f106db385c4&fccid=c35833abe06c86e0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=193a7f106db385c4&fccid=c35833abe06c86e0&vjs=3",
-      "company": "Power Grids - Service Management Solution Architect",
-      "urls": ""
+      "name": "Power Grids - Service Management Solution Architect",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e7e0e48cd53f715c&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=e7e0e48cd53f715c&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "Director for the Centre for Computational Medicine – Interna..."
+      "name": "Director for the Centre for Computational Medicine – Interna...",
+      "company": "ExecMind Life Science Executive Search",
+      "urls": "https://pl.indeed.com//rc/clk?jk=87b9a2ac226f6051&fccid=4dda44caa328da25&vjs=3"
     },
     {
-      "name": "ExecMind Life Science Executive Search",
-      "company": "https://pl.indeed.com//rc/clk?jk=87b9a2ac226f6051&fccid=4dda44caa328da25&vjs=3",
-      "urls": "Procurement Process Manager with German(m/f)"
+      "name": "Procurement Process Manager with German(m/f)",
+      "company": "Michael Page",
+      "urls": "https://pl.indeed.com//rc/clk?jk=a44b398c47317f40&fccid=77087bd1709a8148&vjs=3"
     },
     {
-      "name": "Michael Page",
-      "company": "https://pl.indeed.com//rc/clk?jk=a44b398c47317f40&fccid=77087bd1709a8148&vjs=3",
-      "urls": "Ruby on Rails Developer"
+      "name": "Ruby on Rails Developer",
+      "company": "Railwaymen",
+      "urls": "https://pl.indeed.com//rc/clk?jk=6f7e6c22857a22b8&fccid=ea407b3586382717&vjs=3"
     },
     {
-      "name": "Railwaymen",
-      "company": "https://pl.indeed.com//rc/clk?jk=6f7e6c22857a22b8&fccid=ea407b3586382717&vjs=3",
-      "urls": "Chief Accountant, Accounting to Reporting"
+      "name": "Chief Accountant, Accounting to Reporting",
+      "company": "Lundbeck",
+      "urls": "https://pl.indeed.com//rc/clk?jk=d79b9f54d9f22ae0&fccid=884e0310e97a8b3a&vjs=3"
     },
     {
-      "name": "Lundbeck",
-      "company": "https://pl.indeed.com//rc/clk?jk=d79b9f54d9f22ae0&fccid=884e0310e97a8b3a&vjs=3",
-      "urls": "React Native Developer"
+      "name": "React Native Developer",
+      "company": "Railwaymen",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1580b5bf1a221038&fccid=ea407b3586382717&vjs=3"
     },
     {
-      "name": "Railwaymen",
-      "company": "https://pl.indeed.com//rc/clk?jk=1580b5bf1a221038&fccid=ea407b3586382717&vjs=3",
-      "urls": "EMEA Senior Accounting (RtR) Manager"
+      "name": "EMEA Senior Accounting (RtR) Manager",
+      "company": "Michael Page",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3146c38a0287073f&fccid=77087bd1709a8148&vjs=3"
     },
     {
-      "name": "Michael Page",
-      "company": "https://pl.indeed.com//rc/clk?jk=3146c38a0287073f&fccid=77087bd1709a8148&vjs=3",
-      "urls": "Power Grids - Global IS Service Manager for Audit, Real Esta..."
-    },
-    {
-      "name": "",
+      "name": "Power Grids - Global IS Service Manager for Audit, Real Esta...",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=f802b091a97439bc&fccid=38b4474838e7b7a1&vjs=3"
     },
@@ -11159,56 +11080,48 @@ var datavar={
   "478": [
     {
       "name": "Visual Media Designer",
-      "company": "",
-      "urls": "Jacobs"
+      "company": "Jacobs",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9b3ba8c1b66b6a33&fccid=de56d7554bea5214&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=9b3ba8c1b66b6a33&fccid=de56d7554bea5214&vjs=3",
-      "company": "Web Designer",
-      "urls": "MOTIFE"
+      "name": "Web Designer",
+      "company": "MOTIFE",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1bf1743c91e11e4d&fccid=4c6f3b2aba1982e4&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=1bf1743c91e11e4d&fccid=4c6f3b2aba1982e4&vjs=3",
-      "company": "UI/UX Designer",
-      "urls": "Reality Games Ltd"
+      "name": "UI/UX Designer",
+      "company": "Reality Games Ltd",
+      "urls": "https://pl.indeed.com//rc/clk?jk=be38b941f8b99086&fccid=5b6b859587be5ef0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=be38b941f8b99086&fccid=5b6b859587be5ef0&vjs=3",
-      "company": "Graphic Designer",
-      "urls": ""
+      "name": "Graphic Designer",
+      "company": "Jacobs",
+      "urls": "https://pl.indeed.com//rc/clk?jk=46d212bf696fd27e&fccid=de56d7554bea5214&vjs=3"
     },
     {
-      "name": "Jacobs",
-      "company": "https://pl.indeed.com//rc/clk?jk=46d212bf696fd27e&fccid=de56d7554bea5214&vjs=3",
-      "urls": "Visual Designer (Freelancer)"
+      "name": "Visual Designer (Freelancer)",
+      "company": "Miquido",
+      "urls": "https://pl.indeed.com//rc/clk?jk=775a02a02a2720b8&fccid=b7117f8974cf5be7&vjs=3"
     },
     {
-      "name": "Miquido",
-      "company": "https://pl.indeed.com//rc/clk?jk=775a02a02a2720b8&fccid=b7117f8974cf5be7&vjs=3",
-      "urls": "Senior UI/UX Designer"
+      "name": "Senior UI/UX Designer",
+      "company": "Reality Games Ltd",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e60f52063a358e4d&fccid=5b6b859587be5ef0&vjs=3"
     },
     {
-      "name": "Reality Games Ltd",
-      "company": "https://pl.indeed.com//rc/clk?jk=e60f52063a358e4d&fccid=5b6b859587be5ef0&vjs=3",
-      "urls": "Senior UI/UX Designer"
+      "name": "Senior UI/UX Designer",
+      "company": "Klient Advisory Group TEST Human Resources",
+      "urls": "https://pl.indeed.com//rc/clk?jk=dc96c47533aa4f92&fccid=3e41fd04722e7f1d&vjs=3"
+    }
+  ],
+  "479": [
+    {
+      "name": "Solution Architect Track & Trace",
+      "company": "Philip Morris International Service Center Europe",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNWZTV30kQvwwrn9tg91UQuAGOBu2Zhh-nfwVa6nMTqZy3mI_5bJK_3J6kg2SeYb0nxmxK0sTcc896C5Ib4o7y8ce20LUr4XIsEUBQdqbLu36ojToENWepTLu3cJWRogl0kQ8jwOl3fQTpZw2bK7UmJzaIm9JnFshis5K9SYwwhkYfhFreXJn6nT52BFEL8VdUKFmtvZy-wuK94oGai4OwDOOaGGD_xecUTnd2ajDOSwS7GfD105xgMNwD5M_jgS7RB7CfQUPLyjjJYkGoap_BDe0ZlGTY6PmSzJvvTAXQdMO8Zva8WIWa_iVvcHbeE3AhQ6PUTiF8bnwgLFvIcK8gKJuunlcxuSgR-aBYcS67BZJyHQ_2tTcnt3UrGxREFuIkSTP36lUsrq9Rh3zeZPG-k8lHoo711X3Df1BX8OozlXVwKECRhmShW8red6vh5-lzK4kPBB-R4wZzhwjbW2Vzl_3QmeQqbP119GCGI0xwfY3rlFm17vNoh511jtaz9jlFeFLSJgM1Y7uVVna6RamTl0jd-tVsOuAbgDq0aXrb-ADQRhr-23Tj989kC8meiUKT_FoKf6YIog8bSSGgWSwkwH2m8odXwF2QGWYpuR0fu4HnBx5GATAcRy2a6eymQzv-o=&p=0&fvj=0&vjs=3"
     },
     {
-      "name": "Klient Advisory Group TEST Human Resources",
-      "company": "https://pl.indeed.com//rc/clk?jk=dc96c47533aa4f92&fccid=3e41fd04722e7f1d&vjs=3",
-      "urls": "xxx"
-    },
-    {
-      "name": "479",
-      "company": "Solution Architect Track & Trace",
-      "urls": ""
-    },
-    {
-      "name": "Philip Morris International Service Center Europe",
-      "company": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNWZTV30kQvwwrn9tg91UQuAGOBu2Zhh-nfwVa6nMTqZy3mI_5bJK_3J6kg2SeYb0nxmxK0sTcc896C5Ib4o7y8ce20LUr4XIsEUBQdqbLu36ojToENWepTLu3cJWRogl0kQ8jwOl3fQTpZw2bK7UmJzaIm9JnFshis5K9SYwwhkYfhFreXJn6nT52BFEL8VdUKFmtvZy-wuK94oGai4OwDOOaGGD_xecUTnd2ajDOSwS7GfD105xgMNwD5M_jgS7RB7CfQUPLyjjJYkGoap_BDe0ZlGTY6PmSzJvvTAXQdMO8Zva8WIWa_iVvcHbeE3AhQ6PUTiF8bnwgLFvIcK8gKJuunlcxuSgR-aBYcS67BZJyHQ_2tTcnt3UrGxREFuIkSTP36lUsrq9Rh3zeZPG-k8lHoo711X3Df1BX8OozlXVwKECRhmShW8red6vh5-lzK4kPBB-R4wZzhwjbW2Vzl_3QmeQqbP119GCGI0xwfY3rlFm17vNoh511jtaz9jlFeFLSJgM1Y7uVVna6RamTl0jd-tVsOuAbgDq0aXrb-ADQRhr-23Tj989kC8meiUKT_FoKf6YIog8bSSGgWSwkwH2m8odXwF2QGWYpuR0fu4HnBx5GATAcRy2a6eymQzv-o=&p=0&fvj=0&vjs=3",
-      "urls": "Solution Architect Connectivity"
-    },
-    {
-      "name": "",
+      "name": "Solution Architect Connectivity",
       "company": "Philip Morris International Service Center Europe",
       "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNWnRPiMuVM8ZH97daySQUvTqRucbQuB5RGKRtc2dwpHAuqfCRIRiTqDJBeRY2jFnW63i0VAv3sOkuLYm4E7CYlkpkpgccPSPMGJwJwhYg74ABaC8qgFR_9IlZnKdsX2m2kvV4wW682bBV2715D-JRc7GXM4_QpjZTBDybs5Yjv0agvsfiHaK8ohdixBjc2yFVPhPxr8JJ4KrCVdSqQjzjOiW3A_TYr4rE9HHYg9pS3E6mNkpt5Tpmc-7L1d4pT0_dqQQMQi21VAUAo1HCO55MlJlL11nwe01ffoW5PZNr_qLD0l6ndWuBs6eFmFugR_zTndzfgaRc8CamMeUXzJck0z0_cRpRBQKaD616-0e8XFM5FPtFG0FaiQYOSWMldUWQWdxs4iGos51GFwyABPG6STo2JGEF1RX839UpojpEiiehjm-tAfEsMjm-SAgS_ZWEB-a3z_4rHstlvcWaGeicuty6auN7XF7DebDQc5obJG3a9mpfkMEzMN5r9sKmG3jsjBIjnbnpBJ1UdgDKtm0Couu2roa4H6t4-TMr3Q3Dd4oSJfqBBts-4LMVjruj7cd3ByCJqisymQmXvVnDCVGBluyec_j5McwVislMdoR5_MIDxyaRKQiSSdvpELHoKYIhj5Jh1BfKzWkw==&p=1&fvj=0&vjs=3"
     },
@@ -11219,41 +11132,31 @@ var datavar={
     },
     {
       "name": "Solution Architect Supply Chain",
-      "company": "",
-      "urls": "Philip Morris International Service Center Europe"
+      "company": "Philip Morris International Service Center Europe",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNUSAqhygYBSlMsprHctAKMiZvKPZvjUh-F-y2LYnjqgj4KUSYtWmX0YOk-pjeptbLlZ9C-X8x5NIehUITcITjWKMrYPoEBtpdEvybqdK7c4FIRoiA-utMMRnByhgwTLiIzCfPHrfR60074VOXy2VCh4COVDwypraXZdGCPTOsxtb_mROe7nSgSaSmBeTk3k5ucz-zQft0mxxe4cFFnD8DgntGlrzD5lhcLCHR_VNMxlB-U9Y9JnW_tAgWsRoT-q1lguzcRIa3Poxj0lS4bHJWvJkb54D9t5Hd9wXXEq25e3vJn3dDRd8LnlVStwMSU8WDfNsHBIGk3TMhegGLLpqZ7fAkjHgJWVny0W9nDPWxmqPF_Hnd2mlI0GrAHeYGJJE5-ElfMmQFkyBVh1vaImYu-UBIAipEiEwTTg6Zzeymdw_P42LnRIviwTmaQDPtd3YTSuDVRYymBRx3CxAUj8hK6v2IgDQjOFLNut8iEPrMXlNF1PKl68dK0mp2Sx2Rd72_Tvu82JqovZgAi79YSo1CM5jR9SL7paAcepSjPVy2H2GyIsXlrUbLSiAo6t9o56Hh296F0WTmK5M8lSz4Y2JGMVJOwciWAzOP2HERNjN8k5m2DPSxo9ShnLQb9j9fqtTF8WpQg2STN-pA==&p=3&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNUSAqhygYBSlMsprHctAKMiZvKPZvjUh-F-y2LYnjqgj4KUSYtWmX0YOk-pjeptbLlZ9C-X8x5NIehUITcITjWKMrYPoEBtpdEvybqdK7c4FIRoiA-utMMRnByhgwTLiIzCfPHrfR60074VOXy2VCh4COVDwypraXZdGCPTOsxtb_mROe7nSgSaSmBeTk3k5ucz-zQft0mxxe4cFFnD8DgntGlrzD5lhcLCHR_VNMxlB-U9Y9JnW_tAgWsRoT-q1lguzcRIa3Poxj0lS4bHJWvJkb54D9t5Hd9wXXEq25e3vJn3dDRd8LnlVStwMSU8WDfNsHBIGk3TMhegGLLpqZ7fAkjHgJWVny0W9nDPWxmqPF_Hnd2mlI0GrAHeYGJJE5-ElfMmQFkyBVh1vaImYu-UBIAipEiEwTTg6Zzeymdw_P42LnRIviwTmaQDPtd3YTSuDVRYymBRx3CxAUj8hK6v2IgDQjOFLNut8iEPrMXlNF1PKl68dK0mp2Sx2Rd72_Tvu82JqovZgAi79YSo1CM5jR9SL7paAcepSjPVy2H2GyIsXlrUbLSiAo6t9o56Hh296F0WTmK5M8lSz4Y2JGMVJOwciWAzOP2HERNjN8k5m2DPSxo9ShnLQb9j9fqtTF8WpQg2STN-pA==&p=3&fvj=0&vjs=3",
-      "company": "System Architect/Manager",
-      "urls": ""
+      "name": "System Architect/Manager",
+      "company": "PwC Polska",
+      "urls": "https://pl.indeed.com//rc/clk?jk=39a9525933e48d22&fccid=5e964c4afc56b180&vjs=3"
     },
     {
-      "name": "PwC Polska",
-      "company": "https://pl.indeed.com//rc/clk?jk=39a9525933e48d22&fccid=5e964c4afc56b180&vjs=3",
-      "urls": "Data Architect"
-    },
-    {
-      "name": "",
+      "name": "Data Architect",
       "company": "IBM",
       "urls": "https://pl.indeed.com//rc/clk?jk=80609700436554a2&fccid=de71a49b535e21cb&vjs=3"
     },
     {
       "name": "IS Solution Architect (R&D Domain)",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=313554c95601765f&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=313554c95601765f&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "User Experience Architect",
-      "urls": ""
+      "name": "User Experience Architect",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=6719116cd999191d&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=6719116cd999191d&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Solution Architect Connectivity"
-    },
-    {
-      "name": "",
+      "name": "Solution Architect Connectivity",
       "company": "Philip Morris International",
       "urls": "https://pl.indeed.com//rc/clk?jk=c36575ac2c77e077&fccid=4141256365dbb7d7&vjs=3"
     },
@@ -11269,146 +11172,116 @@ var datavar={
     },
     {
       "name": "Solution Architect",
-      "company": "",
-      "urls": "EPAM Systems"
+      "company": "EPAM Systems",
+      "urls": "https://pl.indeed.com//rc/clk?jk=223e8ba9a192a002&fccid=532afac41b2663f7&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=223e8ba9a192a002&fccid=532afac41b2663f7&vjs=3",
-      "company": "Power Grids - ERP Solution Architect Issue-to-Resolution",
-      "urls": ""
+      "name": "Power Grids - ERP Solution Architect Issue-to-Resolution",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=788189e36218b680&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=788189e36218b680&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "Solution Architect IT (HR Systems)"
-    },
-    {
-      "name": "",
+      "name": "Solution Architect IT (HR Systems)",
       "company": "Philip Morris International Service Center Europe",
       "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNWnRPiMuVM8ZMjLU4LHY-ijOgs1FTroC4Nci6dMoA1wyxFME24qnDL-wa_43t7rpwxmT1Y-5xfbhJpIbIdb7l3XroYUPktEXkbTSo34LNJS6evaCRyvC8AgtRAD1gn24FDd5TecuN9cFKlpCV3UDWrgJU6cRoprjNCBFMc61MiySr6ARlGVB-bF5WIuGjvURKCffFg-uBDj6Vq-HcZxezd5E60UluDB-R5_w9R2LPRbjZXFNgev8VC29pvenFKur48GyjMoc5vcs7oTzgryPtqdFkMwnYlphjJuwLhkRU6kz01Jz74XE-387HrYz8aPxp9R8m70pnRzqqatdpsW2pN9U3AG1-8P2uitS-DYg4qdipoy1OwKlts4NAiMtvZ-TN65q0URRkKMkJ_u01U6qGiB6QJ0431T33prURm8x1Frx0XyC7lM7umPirhg1PJV9DlmPFrN4RwLxHwU1TCmiQw_ucIteuHrx_d6T1i9f81adXx5rvCr9OBQHjVJCcNHfE69hKGksudOPfvZ5PiAusQid75AxSJGKywZ8Q9S9ZIN2O7WemRV1Mp0qEh17bgefW1kq1K3o0q7iscrpRQBaAB6tgiec4SroLrNyNpjmbFOiHwpyXEWkdTHjABkBfpFVH84gwLUGPnrTQ==&p=14&fvj=0&vjs=3"
     },
     {
       "name": "IT Solution Architect (QA Manufacturing Systems)",
-      "company": "",
-      "urls": "Philip Morris International Service Center Europe"
+      "company": "Philip Morris International Service Center Europe",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNU1nMLKt_AynZE9MPRJFmYjPnkwCKjsSh0FPCFShq4s49FytZI7hEw_pbTTKgx8r3PBDgx0f_b3TTR2MJimWP4wkedEKM1V5aoNmJNDQnnF1IRCsF34phMnN6uBXjhmzVYH40niJr0R9Z4ELHbuoqYDNG78RPQQDU-5zXWmcpYg9czXWoqvFTkFwx0eNP_j3QBTd7Tx3iC5p9aicOrd5ODRXgeqVBS4XpjxPMfOee0oQoNjOJmmWV2RDz6hOaflnYsfX4UW9FExJvxbCeMR9NgxOR2xQARgl1s-unOeraxnh2hxYO5EIQyfNPObNgGHIC1EisuP_dlEFRQMD21sVBCCnjnn9T-CDqRik9YWCy-Mo0wxfxTUXWU9NefQ-ryIWc2LisUHXlb3XxpyqKsZoALVpc9CcDUzpljb2ELPISW2NePycpR-XRITh-zJCX_CDcOusF6BfGU_qIihIuWiaemPlpf80UdKxfxiqjmC42nAuaGh8sPx0ZKYhuRPQ1M6XFpHFzkbQ8tT8Pgzua1_01PUyozy3nUWTRIfdj_EWA9pu9JiCju_mAzZSQg-tStinxeNFA_SR28BF2x2_peuCesDj0dA4I1f--Rbij_TaRaHAlcEnjsikeetUVQ86KmsJnxPbiSHEbSyEK3-Qexz0zElAB01knj9KTs=&p=0&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNU1nMLKt_AynZE9MPRJFmYjPnkwCKjsSh0FPCFShq4s49FytZI7hEw_pbTTKgx8r3PBDgx0f_b3TTR2MJimWP4wkedEKM1V5aoNmJNDQnnF1IRCsF34phMnN6uBXjhmzVYH40niJr0R9Z4ELHbuoqYDNG78RPQQDU-5zXWmcpYg9czXWoqvFTkFwx0eNP_j3QBTd7Tx3iC5p9aicOrd5ODRXgeqVBS4XpjxPMfOee0oQoNjOJmmWV2RDz6hOaflnYsfX4UW9FExJvxbCeMR9NgxOR2xQARgl1s-unOeraxnh2hxYO5EIQyfNPObNgGHIC1EisuP_dlEFRQMD21sVBCCnjnn9T-CDqRik9YWCy-Mo0wxfxTUXWU9NefQ-ryIWc2LisUHXlb3XxpyqKsZoALVpc9CcDUzpljb2ELPISW2NePycpR-XRITh-zJCX_CDcOusF6BfGU_qIihIuWiaemPlpf80UdKxfxiqjmC42nAuaGh8sPx0ZKYhuRPQ1M6XFpHFzkbQ8tT8Pgzua1_01PUyozy3nUWTRIfdj_EWA9pu9JiCju_mAzZSQg-tStinxeNFA_SR28BF2x2_peuCesDj0dA4I1f--Rbij_TaRaHAlcEnjsikeetUVQ86KmsJnxPbiSHEbSyEK3-Qexz0zElAB01knj9KTs=&p=0&fvj=0&vjs=3",
-      "company": "Solution Architect Track & Trace",
-      "urls": ""
+      "name": "Solution Architect Track & Trace",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=0fe0e214eeeee23e&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=0fe0e214eeeee23e&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Power Grids - Global IT Architect for Application Security"
-    },
-    {
-      "name": "",
+      "name": "Power Grids - Global IT Architect for Application Security",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=1f6733965dfebec4&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
       "name": "CI/CD Solution Architect",
-      "company": "",
-      "urls": "Aptiv"
+      "company": "Aptiv",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4644e01c7ca93530&fccid=8d390ab1843cb8bd&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=4644e01c7ca93530&fccid=8d390ab1843cb8bd&vjs=3",
-      "company": "IS Service Manager for ABB Web portal",
-      "urls": ""
+      "name": "IS Service Manager for ABB Web portal",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e4be05a7480e41c5&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=e4be05a7480e41c5&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "Sr Cyber Security Architect"
+      "name": "Sr Cyber Security Architect",
+      "company": "GE Healthcare",
+      "urls": "https://pl.indeed.com//rc/clk?jk=2eb7b60eb809c144&fccid=65b5f2aba4dbd31f&vjs=3"
     },
     {
-      "name": "GE Healthcare",
-      "company": "https://pl.indeed.com//rc/clk?jk=2eb7b60eb809c144&fccid=65b5f2aba4dbd31f&vjs=3",
-      "urls": "Senior Network Delivery Architect"
-    },
-    {
-      "name": "",
+      "name": "Senior Network Delivery Architect",
       "company": "Akamai",
       "urls": "https://pl.indeed.com//rc/clk?jk=026b4ee595cc0c73&fccid=9c094dedde5fb497&vjs=3"
     },
     {
       "name": "Senior Security Researcher / Architect",
-      "company": "",
-      "urls": "Akamai"
+      "company": "Akamai",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4351fb6158deaf44&fccid=9c094dedde5fb497&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=4351fb6158deaf44&fccid=9c094dedde5fb497&vjs=3",
-      "company": "Senior Data Architect",
-      "urls": "Grand Parade"
+      "name": "Senior Data Architect",
+      "company": "Grand Parade",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f0518a0e90f9ee44&fccid=05868c54e0d72a0d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=f0518a0e90f9ee44&fccid=05868c54e0d72a0d&vjs=3",
-      "company": "IT Solution Architect (QA Manufacturing Systems)",
-      "urls": ""
+      "name": "IT Solution Architect (QA Manufacturing Systems)",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5153c699ad454cf6&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=5153c699ad454cf6&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Power Grids - ERP Data Analytics Manager"
-    },
-    {
-      "name": "",
+      "name": "Power Grids - ERP Data Analytics Manager",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=6c35ff9d9f6e96c6&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
       "name": "Senior InfoSec Engineer Analystics",
-      "company": "",
-      "urls": "Philip Morris International Service Center Europe"
+      "company": "Philip Morris International Service Center Europe",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNV3kZ-ySeRapqlS5uPYk703-inI9lkwENFy_alVeTYnkuK-E0B3GEQoysJ1gEsvcpx5AArCn066lGha1kmKbvSU8w8DCmR1Efrc9W-L-ZuV1yaU9z0MfUNMyV1AnuYUaGb2U7-rU3j1ZeUlj6las21oqtxMveKWpLLIQa-8QNPHunJbU1VIuh9z-nNjcY-wUS20yQQaWo0WPrg7dMMQRyxCBWHic9TIDPSd5WI2bEJvd0fHGu-T4b_KlnVI2lhsobukGhk1OY2DKJOMOfYFna_V6FiedPi6XKr6wlS6uaI-02VaqKBkVr_zpXb9zMDPcExR2fR18-0dOX3PYb-IZdQPPXPG7gWK6CnEgrMkYny3aBv-TcDe21PlafAKuN9zP4-FD67vlSTuS1uFPY1vuX63nWQiEaBF3vVRMCHsXw0g7oLrxDOFIJHfUElhGe3z4lSVSwbY3c-cj5yeofEf1fy7vY7VD7fvtTEarKDB1KQmLn1v9ooweD5599YUJc3iHhOuFFuewLtYZuyCyFTQZs486-HLAhUhjaEnVIT51-2iB_Jxjm1Khdc1yScmrVDtb07TaTL1qQrFfJJV1NXcvlWnjHovhCTyYNVagdDVj3KnBdGJKSJ2cTjfXuVB09w54DjYoJPYyHM1mA9GNYpJpLVX&p=1&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNV3kZ-ySeRapqlS5uPYk703-inI9lkwENFy_alVeTYnkuK-E0B3GEQoysJ1gEsvcpx5AArCn066lGha1kmKbvSU8w8DCmR1Efrc9W-L-ZuV1yaU9z0MfUNMyV1AnuYUaGb2U7-rU3j1ZeUlj6las21oqtxMveKWpLLIQa-8QNPHunJbU1VIuh9z-nNjcY-wUS20yQQaWo0WPrg7dMMQRyxCBWHic9TIDPSd5WI2bEJvd0fHGu-T4b_KlnVI2lhsobukGhk1OY2DKJOMOfYFna_V6FiedPi6XKr6wlS6uaI-02VaqKBkVr_zpXb9zMDPcExR2fR18-0dOX3PYb-IZdQPPXPG7gWK6CnEgrMkYny3aBv-TcDe21PlafAKuN9zP4-FD67vlSTuS1uFPY1vuX63nWQiEaBF3vVRMCHsXw0g7oLrxDOFIJHfUElhGe3z4lSVSwbY3c-cj5yeofEf1fy7vY7VD7fvtTEarKDB1KQmLn1v9ooweD5599YUJc3iHhOuFFuewLtYZuyCyFTQZs486-HLAhUhjaEnVIT51-2iB_Jxjm1Khdc1yScmrVDtb07TaTL1qQrFfJJV1NXcvlWnjHovhCTyYNVagdDVj3KnBdGJKSJ2cTjfXuVB09w54DjYoJPYyHM1mA9GNYpJpLVX&p=1&fvj=0&vjs=3",
-      "company": "F&A Solution Architect",
-      "urls": "Klient Advisory Group TEST Human Resources"
+      "name": "F&A Solution Architect",
+      "company": "Klient Advisory Group TEST Human Resources",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f45feb8b6be4421f&fccid=3e41fd04722e7f1d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=f45feb8b6be4421f&fccid=3e41fd04722e7f1d&vjs=3",
-      "company": "IT Solution Architect Supply Chain and Product Development",
-      "urls": ""
+      "name": "IT Solution Architect Supply Chain and Product Development",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3f5caf8d59aa4eee&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=3f5caf8d59aa4eee&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Power Grids - ERP Integration Manager"
-    },
-    {
-      "name": "",
+      "name": "Power Grids - ERP Integration Manager",
       "company": "ABB",
       "urls": "https://pl.indeed.com//rc/clk?jk=763a6e1d0dba60ea&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
       "name": "Senior AWS Solution Architect",
-      "company": "",
-      "urls": "Aptiv"
+      "company": "Aptiv",
+      "urls": "https://pl.indeed.com//rc/clk?jk=7a9b7fd0be9cd606&fccid=8d390ab1843cb8bd&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=7a9b7fd0be9cd606&fccid=8d390ab1843cb8bd&vjs=3",
-      "company": "Senior Curriculum Developer - Platform",
-      "urls": "Pegasystems"
+      "name": "Senior Curriculum Developer - Platform",
+      "company": "Pegasystems",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1b914ef4f9ceec89&fccid=1b567d66763b30ee&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=1b914ef4f9ceec89&fccid=1b567d66763b30ee&vjs=3",
-      "company": "Lead Software Engineer",
-      "urls": ""
+      "name": "Lead Software Engineer",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=2ce5bfca8c216a6d&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=2ce5bfca8c216a6d&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Senior Data Architect"
+      "name": "Senior Data Architect",
+      "company": "William Hill",
+      "urls": "https://pl.indeed.com//rc/clk?jk=dd942ea69cc63d77&fccid=8cb222cc2614b8d7&vjs=3"
     },
     {
-      "name": "William Hill",
-      "company": "https://pl.indeed.com//rc/clk?jk=dd942ea69cc63d77&fccid=8cb222cc2614b8d7&vjs=3",
-      "urls": "Senior SIEM Engineer"
-    },
-    {
-      "name": "",
+      "name": "Senior SIEM Engineer",
       "company": "Philip Morris International",
       "urls": "https://pl.indeed.com//rc/clk?jk=db31e68b835402b5&fccid=4141256365dbb7d7&vjs=3"
     },
@@ -11429,26 +11302,21 @@ var datavar={
     },
     {
       "name": "Power Grids - IT Solution Architect – Advanced Analytics",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5c1e17db943e94b9&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=5c1e17db943e94b9&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Solution Architect (IRAM)",
-      "urls": "Rekrutacyjny.pl"
+      "name": "Solution Architect (IRAM)",
+      "company": "Rekrutacyjny.pl",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e5a937dfd014f4b7&fccid=a7ccffe70c57a06a&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=e5a937dfd014f4b7&fccid=a7ccffe70c57a06a&vjs=3",
-      "company": "System Architect/Manager",
-      "urls": ""
+      "name": "System Architect/Manager",
+      "company": "PwC",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhqEHhHUWsXOM4sFn7RcMSIcGkfgc9BXq0zvsg2O_fnrH96ulgABgyeY2sPMw2LzZuMchY1RPHOH2NWwfGxpIstxNhRBwOSa89HLr35IV7J9I923o9YMnBAEk4HcTuXQSrGMRnB2Z4mtkbtfVHyq80oxTEadh86xCls5BGIlu4mBOXZiVCfu-PiWvgVZ3JcUTlCcpISmGGPQ86H3_K_1Ln1B2b1EMC7pwcQzkwNo4_L5B-5r36j3vrT9SFgytK1cRQ8AdutjPD5wNLsTLR0tGDd-M2fR8RhU9E9Xbz5Jn7BpUfaBahYwoC1Cvtc3mIFADRHpOf2Q4Os-WxBhNiZPO-QP5uwN9oIgAEJnm8TC9Vhum8qFpV8391HGvGtX4tNlHFrFZ5P3o6Pt0fTu40RnM7KRes852TgwOWpiPGwmSm9Ln5pTgttPbCma3nyDLOxTlrMn3s7ehGxJpQOsuB-ilkTdTIkMpqtHb8mQvbdWeny9PsMJQH2yto6HR5bH_1ZU4FQUXgf--iTbMMH_iXeqbULMmmj4EIn0W-I4zROwJj1Yi2aVYxQ6PdVtC8J3JIanVmRZLW81pZ_iEbdb7HYCG4fqyx2KFA81B2AX_k-8AT7FuviKXVLzcbma7svsb9Kxk8hgJQMcbCNkn5Nd8lOxfD4jBuIXU2c9deg==&p=7&fvj=0&vjs=3"
     },
     {
-      "name": "PwC",
-      "company": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhqEHhHUWsXOM4sFn7RcMSIcGkfgc9BXq0zvsg2O_fnrH96ulgABgyeY2sPMw2LzZuMchY1RPHOH2NWwfGxpIstxNhRBwOSa89HLr35IV7J9I923o9YMnBAEk4HcTuXQSrGMRnB2Z4mtkbtfVHyq80oxTEadh86xCls5BGIlu4mBOXZiVCfu-PiWvgVZ3JcUTlCcpISmGGPQ86H3_K_1Ln1B2b1EMC7pwcQzkwNo4_L5B-5r36j3vrT9SFgytK1cRQ8AdutjPD5wNLsTLR0tGDd-M2fR8RhU9E9Xbz5Jn7BpUfaBahYwoC1Cvtc3mIFADRHpOf2Q4Os-WxBhNiZPO-QP5uwN9oIgAEJnm8TC9Vhum8qFpV8391HGvGtX4tNlHFrFZ5P3o6Pt0fTu40RnM7KRes852TgwOWpiPGwmSm9Ln5pTgttPbCma3nyDLOxTlrMn3s7ehGxJpQOsuB-ilkTdTIkMpqtHb8mQvbdWeny9PsMJQH2yto6HR5bH_1ZU4FQUXgf--iTbMMH_iXeqbULMmmj4EIn0W-I4zROwJj1Yi2aVYxQ6PdVtC8J3JIanVmRZLW81pZ_iEbdb7HYCG4fqyx2KFA81B2AX_k-8AT7FuviKXVLzcbma7svsb9Kxk8hgJQMcbCNkn5Nd8lOxfD4jBuIXU2c9deg==&p=7&fvj=0&vjs=3",
-      "urls": "Lead Software Engineer"
-    },
-    {
-      "name": "",
+      "name": "Lead Software Engineer",
       "company": "Philip Morris International Service Center Europe",
       "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNVqADdA9oChXBm0t9sQuwTI3xEAfN1TzAChYg4r-OuK-IODsKG-OE9JmZBCbaJ_YE-PXeRXzzI1GbvnG6Hn9Lqnj66E7klKGUyjb1OvLAdJtaX5mbCvjVCf9Ak-hE_GGjoOpn31h2j40_ttjfQfIXhxyGPlMAN-LfYmVvCCP7O_9f8p86SXVpzYSr2FbCdB-rLXh0pI7ZSjxT_TpM0x4DP40DQgdME8mBH2SSZJEpT1QG7tq-61nA3xRM4--EDQaubWpK4u_-dT5ZsfklpMr9UEIIfX91dtzInEL2hSJ_j4DMLurZI-cg0eijmid2yT1BlU_V2fiyTSnsPKK9X3XikgYj_ewQoH1ezbbLte5raxGrO9jWn73toCT13_f822fnpW2w-zIEWuiGfoflVApf3p-mFWKZeNoPa4F54yGGJ_SDLfMtJaAyLjwDHgBKxd-f3JE_-r-2qhwwnuMOBaUiD6-AznKtjOLGfSVLyF_mPOQdazteW1jMqYa9pSb2BkppHkev3ZTGQg3CNj-T65nQ0R__TdBqacAQRG5U4YS8u8ySk2xNEP60iSdS038pnryuo21P7xZb5bcfvg8OzTFLlx2qSAs7W9l_cJ4TQCNYLPNbgMlm_xvXyInFM3FN5c9Uc=&p=8&fvj=0&vjs=3"
     }
@@ -11456,31 +11324,26 @@ var datavar={
   "480": [
     {
       "name": "Electronics Designer – Hardware",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=c635afe05988b155&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=c635afe05988b155&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Electronics Designer – Hardware & Firmware",
-      "urls": ""
+      "name": "Electronics Designer – Hardware & Firmware",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f52253779d54ebd3&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=f52253779d54ebd3&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "Senior UX Designer 20-0115"
+      "name": "Senior UX Designer 20-0115",
+      "company": "Relativity",
+      "urls": "https://pl.indeed.com//rc/clk?jk=24c1268416bd29ad&fccid=fba55399536c27ec&vjs=3"
     },
     {
-      "name": "Relativity",
-      "company": "https://pl.indeed.com//rc/clk?jk=24c1268416bd29ad&fccid=fba55399536c27ec&vjs=3",
-      "urls": "Senior Graphic Designer&Team Leader (Principles Team)"
+      "name": "Senior Graphic Designer&Team Leader (Principles Team)",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4150914dadcd5f9f&fccid=a7f110d3869433f8&vjs=3"
     },
     {
-      "name": "Admind",
-      "company": "https://pl.indeed.com//rc/clk?jk=4150914dadcd5f9f&fccid=a7f110d3869433f8&vjs=3",
-      "urls": "Senior Game Designer"
-    },
-    {
-      "name": "",
+      "name": "Senior Game Designer",
       "company": "Keywords Studios",
       "urls": "https://pl.indeed.com//rc/clk?jk=5ee6464614937cb7&fccid=c26d104f25f1364f&vjs=3"
     }
@@ -11636,29 +11499,26 @@ var datavar={
     },
     {
       "name": "Specjalista ds. marketingu produktowego",
-      "company": "",
-      "urls": "Comarch"
+      "company": "Comarch",
+      "urls": "https://pl.indeed.com//rc/clk?jk=969751576370afe5&fccid=68b975ecbbd7a58d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=969751576370afe5&fccid=68b975ecbbd7a58d&vjs=3",
-      "company": "Specjalista ds. Mediów Społecznościowych [rekrutacja online]",
-      "urls": "PI MANAGEMENT SP. Z O.O."
+      "name": "Specjalista ds. Mediów Społecznościowych [rekrutacja online]",
+      "company": "PI MANAGEMENT SP. Z O.O.",
+      "urls": "https://pl.indeed.com//rc/clk?jk=78f1128ee0688a51&fccid=116d318ce6f2c81d&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=78f1128ee0688a51&fccid=116d318ce6f2c81d&vjs=3",
-      "company": "Specjalista ds. kampanii marketingowych (SEM)",
-      "urls": "PromoTraffic"
+      "name": "Specjalista ds. kampanii marketingowych (SEM)",
+      "company": "PromoTraffic",
+      "urls": "https://pl.indeed.com//rc/clk?jk=01fecd4da9a94534&fccid=e29fd57cbddac110&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=01fecd4da9a94534&fccid=e29fd57cbddac110&vjs=3",
-      "company": "Specjalista ds",
-      "urls": "brak nazwy"
-    },
-    {
-      "name": "https://pl.indeed.com//rc/clk?jk=f22871bdfe9abed5&fccid=dd616958bd9ddc12&vjs=3",
-      "company": "xxx",
-      "urls": "486"
-    },
+      "name": "Specjalista ds",
+      "company": "brak nazwy",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f22871bdfe9abed5&fccid=dd616958bd9ddc12&vjs=3"
+    }
+  ],
+  "486": [
     {
       "name": "Specjalista ds. Kalkulacji - Hydrotechnika (m / k)",
       "company": "STRABAG Sp. z o.o. / Dyrekcja Budownictwa Ogólnego...",
@@ -11668,66 +11528,58 @@ var datavar={
   "487": [
     {
       "name": "Fulfilment Planner",
-      "company": "",
-      "urls": "Philip Morris International Service Center Europe"
+      "company": "Philip Morris International Service Center Europe",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNXE2dIlGGKYL617mrMSCZXJEXSVyafURYSoGWRYpHlRO_3h7yVi8v9VbZ_cx-cXpIKO1y1LUCbEP9VlCyDLCXQjO6ZkB1zgWidZYdwn_12SieEzj0sMd4sirWHgF0YxoTKv7spAU_I8YH3aHmJHtSCYY4LwW99s__WUgirKS40QHh5ljgmrSUpsOde9jv31Gcj_twOITXfc_0Qpg3srWx2GGwNwG0di7w320C8WSk2X8n3XgC2R4ppi0DuX9QtK1Rbjc482qJWEPf1FQsForPL-Z3DGZrN9Jpmg0orc_-M72bXPOrNd-6DL2-2gZfK6JhL-51Yxx8j4l3EU8kXJ3esL3WTNBh-YZ_Z8ODnSzAzZe2SrA7YB5FfoXn2iReQaO8NQKwG-5vnzbuybyb9stErdL5_2V4lgO90Qd9-ZS6DJbUpVqZw18QDmm0hy8Tekl3yU3rF2jWm_uemak57PcoKNStU4T9-bjbNQGK9ptYD0g0_fmgW9zA1tvysw3EC43rRmN6NGlA0xT3tJK_SY4HO62TUvLWaupnkcNB1DQfPWl3W1ZjnhFRxJOSOaUzIYpm-FmU_eD8HTWHIO9cCif-dJqvQzVFIkVy59SI1sv-iszGb-fLpC77ys&p=0&fvj=0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Cbe0x8UHkXp8LlKiVzpYxP6pMbfnGq7o-nssb_TROrhsnsMEB6EBgL0O5pwyB6QNXE2dIlGGKYL617mrMSCZXJEXSVyafURYSoGWRYpHlRO_3h7yVi8v9VbZ_cx-cXpIKO1y1LUCbEP9VlCyDLCXQjO6ZkB1zgWidZYdwn_12SieEzj0sMd4sirWHgF0YxoTKv7spAU_I8YH3aHmJHtSCYY4LwW99s__WUgirKS40QHh5ljgmrSUpsOde9jv31Gcj_twOITXfc_0Qpg3srWx2GGwNwG0di7w320C8WSk2X8n3XgC2R4ppi0DuX9QtK1Rbjc482qJWEPf1FQsForPL-Z3DGZrN9Jpmg0orc_-M72bXPOrNd-6DL2-2gZfK6JhL-51Yxx8j4l3EU8kXJ3esL3WTNBh-YZ_Z8ODnSzAzZe2SrA7YB5FfoXn2iReQaO8NQKwG-5vnzbuybyb9stErdL5_2V4lgO90Qd9-ZS6DJbUpVqZw18QDmm0hy8Tekl3yU3rF2jWm_uemak57PcoKNStU4T9-bjbNQGK9ptYD0g0_fmgW9zA1tvysw3EC43rRmN6NGlA0xT3tJK_SY4HO62TUvLWaupnkcNB1DQfPWl3W1ZjnhFRxJOSOaUzIYpm-FmU_eD8HTWHIO9cCif-dJqvQzVFIkVy59SI1sv-iszGb-fLpC77ys&p=0&fvj=0&vjs=3",
-      "company": "Strategic Planner",
-      "urls": "Admind"
+      "name": "Strategic Planner",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=2752f0b14716c99e&fccid=a7f110d3869433f8&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=2752f0b14716c99e&fccid=a7f110d3869433f8&vjs=3",
-      "company": "Fulfilment Planner",
-      "urls": ""
+      "name": "Fulfilment Planner",
+      "company": "Philip Morris International",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4529547ae3200662&fccid=4141256365dbb7d7&vjs=3"
     },
     {
-      "name": "Philip Morris International",
-      "company": "https://pl.indeed.com//rc/clk?jk=4529547ae3200662&fccid=4141256365dbb7d7&vjs=3",
-      "urls": "Content Manager"
+      "name": "Content Manager",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f906cf3cfe85651a&fccid=a7f110d3869433f8&vjs=3"
+    }
+  ],
+  "488": [
+    {
+      "name": "Traffic Manager",
+      "company": "BeDigital",
+      "urls": "https://pl.indeed.com//rc/clk?jk=ffe147b33eaa3cc2&fccid=d216bde0f83047fa&vjs=3"
     },
     {
-      "name": "Admind",
-      "company": "https://pl.indeed.com//rc/clk?jk=f906cf3cfe85651a&fccid=a7f110d3869433f8&vjs=3",
-      "urls": "xxx"
+      "name": "Content Manager",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f906cf3cfe85651a&fccid=a7f110d3869433f8&vjs=3"
     },
     {
-      "name": "488",
-      "company": "Traffic Manager",
-      "urls": "BeDigital"
+      "name": "Web Content Manager",
+      "company": "Admind",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9bd2b12f90e69e28&fccid=a7f110d3869433f8&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=ffe147b33eaa3cc2&fccid=d216bde0f83047fa&vjs=3",
-      "company": "Content Manager",
-      "urls": "Admind"
+      "name": "Digital Analytics Specialist",
+      "company": "Bidroom Poland",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e2f78629f64f82a5&fccid=3661982007b43fee&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=f906cf3cfe85651a&fccid=a7f110d3869433f8&vjs=3",
-      "company": "Web Content Manager",
-      "urls": "Admind"
+      "name": "Service Transition Manager",
+      "company": "Mindbox S.A.",
+      "urls": "https://pl.indeed.com//rc/clk?jk=fe37d45fdb9ebd8a&fccid=90b22c4f2ae1e58b&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=9bd2b12f90e69e28&fccid=a7f110d3869433f8&vjs=3",
-      "company": "Digital Analytics Specialist",
-      "urls": "Bidroom Poland"
+      "name": "Logistics Specialist",
+      "company": "Akamai",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5d55e66d613ca9f5&fccid=9c094dedde5fb497&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=e2f78629f64f82a5&fccid=3661982007b43fee&vjs=3",
-      "company": "Service Transition Manager",
-      "urls": "Mindbox S.A."
-    },
-    {
-      "name": "https://pl.indeed.com//rc/clk?jk=fe37d45fdb9ebd8a&fccid=90b22c4f2ae1e58b&vjs=3",
-      "company": "Logistics Specialist",
-      "urls": ""
-    },
-    {
-      "name": "Akamai",
-      "company": "https://pl.indeed.com//rc/clk?jk=5d55e66d613ca9f5&fccid=9c094dedde5fb497&vjs=3",
-      "urls": "Infrastructure Delivery Manager"
-    },
-    {
-      "name": "",
+      "name": "Infrastructure Delivery Manager",
       "company": "Akamai",
       "urls": "https://pl.indeed.com//rc/clk?jk=a6dcf4accd3d66de&fccid=9c094dedde5fb497&vjs=3"
     },
@@ -11763,21 +11615,16 @@ var datavar={
     },
     {
       "name": "Senior Solutions Architect",
-      "company": "",
-      "urls": "Akamai"
+      "company": "Akamai",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9d7366fd5f08bb98&fccid=9c094dedde5fb497&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=9d7366fd5f08bb98&fccid=9c094dedde5fb497&vjs=3",
-      "company": "Solutions Architect II with French",
-      "urls": ""
+      "name": "Solutions Architect II with French",
+      "company": "Akamai",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f3868be17eec4177&fccid=9c094dedde5fb497&vjs=3"
     },
     {
-      "name": "Akamai",
-      "company": "https://pl.indeed.com//rc/clk?jk=f3868be17eec4177&fccid=9c094dedde5fb497&vjs=3",
-      "urls": "Senior Network Delivery Architect"
-    },
-    {
-      "name": "",
+      "name": "Senior Network Delivery Architect",
       "company": "Akamai",
       "urls": "https://pl.indeed.com//rc/clk?jk=026b4ee595cc0c73&fccid=9c094dedde5fb497&vjs=3"
     },
@@ -11800,46 +11647,41 @@ var datavar={
     },
     {
       "name": "Product Designer",
-      "company": "",
-      "urls": "Motorola Solutions"
+      "company": "Motorola Solutions",
+      "urls": "https://pl.indeed.com//rc/clk?jk=dc9bd51d858022fa&fccid=22ec6ef3cc441ac2&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=dc9bd51d858022fa&fccid=22ec6ef3cc441ac2&vjs=3",
-      "company": "UI/UX Designer",
-      "urls": "Reality Games Ltd"
+      "name": "UI/UX Designer",
+      "company": "Reality Games Ltd",
+      "urls": "https://pl.indeed.com//rc/clk?jk=be38b941f8b99086&fccid=5b6b859587be5ef0&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=be38b941f8b99086&fccid=5b6b859587be5ef0&vjs=3",
-      "company": "UX Designer",
-      "urls": "Qualtrics"
+      "name": "UX Designer",
+      "company": "Qualtrics",
+      "urls": "https://pl.indeed.com//rc/clk?jk=d9c095b50bc4cbc8&fccid=10db9f943841d5db&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=d9c095b50bc4cbc8&fccid=10db9f943841d5db&vjs=3",
-      "company": "Web Designer",
-      "urls": "MOTIFE"
+      "name": "Web Designer",
+      "company": "MOTIFE",
+      "urls": "https://pl.indeed.com//rc/clk?jk=1bf1743c91e11e4d&fccid=4c6f3b2aba1982e4&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=1bf1743c91e11e4d&fccid=4c6f3b2aba1982e4&vjs=3",
-      "company": "UX Designer (Finanse)",
-      "urls": ""
+      "name": "UX Designer (Finanse)",
+      "company": "Comarch",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e92f69f00f53fe48&fccid=68b975ecbbd7a58d&vjs=3"
     },
     {
-      "name": "Comarch",
-      "company": "https://pl.indeed.com//rc/clk?jk=e92f69f00f53fe48&fccid=68b975ecbbd7a58d&vjs=3",
-      "urls": "Senior UI/UX Designer"
+      "name": "Senior UI/UX Designer",
+      "company": "Reality Games Ltd",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e60f52063a358e4d&fccid=5b6b859587be5ef0&vjs=3"
     },
     {
-      "name": "Reality Games Ltd",
-      "company": "https://pl.indeed.com//rc/clk?jk=e60f52063a358e4d&fccid=5b6b859587be5ef0&vjs=3",
-      "urls": "UI/UX Designer"
+      "name": "UI/UX Designer",
+      "company": "Humtap",
+      "urls": "https://pl.indeed.com//rc/clk?jk=3318c9a630ae826a&fccid=4ec77f48dd6cf243&vjs=3"
     },
     {
-      "name": "Humtap",
-      "company": "https://pl.indeed.com//rc/clk?jk=3318c9a630ae826a&fccid=4ec77f48dd6cf243&vjs=3",
-      "urls": "UX Designer (ERP)"
-    },
-    {
-      "name": "",
+      "name": "UX Designer (ERP)",
       "company": "Comarch",
       "urls": "https://pl.indeed.com//rc/clk?jk=0bad393ae110a11c&fccid=68b975ecbbd7a58d&vjs=3"
     },
@@ -11880,14 +11722,11 @@ var datavar={
     },
     {
       "name": "Senior Game Designer",
-      "company": "",
-      "urls": "Keywords Studios"
-    },
-    {
-      "name": "https://pl.indeed.com//rc/clk?jk=5ee6464614937cb7&fccid=c26d104f25f1364f&vjs=3",
-      "company": "xxx",
-      "urls": "490"
-    },
+      "company": "Keywords Studios",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5ee6464614937cb7&fccid=c26d104f25f1364f&vjs=3"
+    }
+  ],
+  "490": [
     {
       "name": "C/C++ Windows Kernel Security Expert (f/m/x) (relocated to G...",
       "company": "Avira Operations GmbH & Co. KG",
@@ -11935,71 +11774,66 @@ var datavar={
     },
     {
       "name": "Power Grids - Full Stack Developer for Microgrids Solutions",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=f794ea613276aa92&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=f794ea613276aa92&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Power Grids - C#/.NET Developer for Network Manager",
-      "urls": ""
+      "name": "Power Grids - C#/.NET Developer for Network Manager",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4edfed7f8a320bcb&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=4edfed7f8a320bcb&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "ReactJS Software Engineer"
+      "name": "ReactJS Software Engineer",
+      "company": "Pulsate Mobile",
+      "urls": "https://pl.indeed.com//rc/clk?jk=8c4d9b58f1ecece7&fccid=b4056e2de55537c8&vjs=3"
     },
     {
-      "name": "Pulsate Mobile",
-      "company": "https://pl.indeed.com//rc/clk?jk=8c4d9b58f1ecece7&fccid=b4056e2de55537c8&vjs=3",
-      "urls": "Angular Developer"
+      "name": "Angular Developer",
+      "company": "At provider Poland sp.z.o.o.",
+      "urls": "https://pl.indeed.com//company/At-provider-Poland-sp.z.o.o./jobs/Angular-Developer-df588b893954ff5a?fccid=3cb053f83959b623&vjs=3"
     },
     {
-      "name": "At provider Poland sp.z.o.o.",
-      "company": "https://pl.indeed.com//company/At-provider-Poland-sp.z.o.o./jobs/Angular-Developer-df588b893954ff5a?fccid=3cb053f83959b623&vjs=3",
-      "urls": "Senior Javascript Developer"
+      "name": "Senior Javascript Developer",
+      "company": "ProData Consult",
+      "urls": "https://pl.indeed.com//rc/clk?jk=4a6eb7a2b0ff7fed&fccid=fa336ade0bd80ccd&vjs=3"
     },
     {
-      "name": "ProData Consult",
-      "company": "https://pl.indeed.com//rc/clk?jk=4a6eb7a2b0ff7fed&fccid=fa336ade0bd80ccd&vjs=3",
-      "urls": "Web Developer"
+      "name": "Web Developer",
+      "company": "Working Smart Limited",
+      "urls": "https://pl.indeed.com//rc/clk?jk=5527b145aa3574c1&fccid=eb81f98123301883&vjs=3"
     },
     {
-      "name": "Working Smart Limited",
-      "company": "https://pl.indeed.com//rc/clk?jk=5527b145aa3574c1&fccid=eb81f98123301883&vjs=3",
-      "urls": "iOS Developer"
+      "name": "iOS Developer",
+      "company": "Net2source Global Workforce Solutions Ltd",
+      "urls": "https://pl.indeed.com//rc/clk?jk=9f9718eed86b11da&fccid=96ad8dbc86ceeb6e&vjs=3"
     },
     {
-      "name": "Net2source Global Workforce Solutions Ltd",
-      "company": "https://pl.indeed.com//rc/clk?jk=9f9718eed86b11da&fccid=96ad8dbc86ceeb6e&vjs=3",
-      "urls": "Full Stack Developer"
+      "name": "Full Stack Developer",
+      "company": "Try Codnet",
+      "urls": "https://pl.indeed.com//rc/clk?jk=8017d91a0e626e42&fccid=6938dd7585d85504&vjs=3"
     },
     {
-      "name": "Try Codnet",
-      "company": "https://pl.indeed.com//rc/clk?jk=8017d91a0e626e42&fccid=6938dd7585d85504&vjs=3",
-      "urls": "AngularJS Developer"
+      "name": "AngularJS Developer",
+      "company": "Hays",
+      "urls": "https://pl.indeed.com//rc/clk?jk=30da4a75737f2bc7&fccid=31670bef3ae6497b&vjs=3"
     },
     {
-      "name": "Hays",
-      "company": "https://pl.indeed.com//rc/clk?jk=30da4a75737f2bc7&fccid=31670bef3ae6497b&vjs=3",
-      "urls": "Java Developer"
+      "name": "Java Developer",
+      "company": "Devire",
+      "urls": "https://pl.indeed.com//rc/clk?jk=03ff31a72cddc973&fccid=dac7798bc9cb142c&vjs=3"
     },
     {
-      "name": "Devire",
-      "company": "https://pl.indeed.com//rc/clk?jk=03ff31a72cddc973&fccid=dac7798bc9cb142c&vjs=3",
-      "urls": "Mid Full Stack Developer"
+      "name": "Mid Full Stack Developer",
+      "company": "Hays",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b17119c38db3e8f2&fccid=31670bef3ae6497b&vjs=3"
     },
     {
-      "name": "Hays",
-      "company": "https://pl.indeed.com//rc/clk?jk=b17119c38db3e8f2&fccid=31670bef3ae6497b&vjs=3",
-      "urls": "Senior UI/UX Designer"
+      "name": "Senior UI/UX Designer",
+      "company": "Reality Games Ltd",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e60f52063a358e4d&fccid=5b6b859587be5ef0&vjs=3"
     },
     {
-      "name": "Reality Games Ltd",
-      "company": "https://pl.indeed.com//rc/clk?jk=e60f52063a358e4d&fccid=5b6b859587be5ef0&vjs=3",
-      "urls": "Principal Front-End Developer"
-    },
-    {
-      "name": "",
+      "name": "Principal Front-End Developer",
       "company": "Oracle",
       "urls": "https://pl.indeed.com//rc/clk?jk=0b6f831ee394e9a2&fccid=cd22d01053af7669&vjs=3"
     },
@@ -12020,51 +11854,46 @@ var datavar={
     },
     {
       "name": "Power Grids - Web Integration Engineer – Java Developer",
-      "company": "",
-      "urls": "ABB"
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=df09cfd3edd95c71&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "https://pl.indeed.com//rc/clk?jk=df09cfd3edd95c71&fccid=38b4474838e7b7a1&vjs=3",
-      "company": "Power Grids - Full Stack Developer for SDM600 Solutions",
-      "urls": ""
+      "name": "Power Grids - Full Stack Developer for SDM600 Solutions",
+      "company": "ABB",
+      "urls": "https://pl.indeed.com//rc/clk?jk=337b9ca850f242ac&fccid=38b4474838e7b7a1&vjs=3"
     },
     {
-      "name": "ABB",
-      "company": "https://pl.indeed.com//rc/clk?jk=337b9ca850f242ac&fccid=38b4474838e7b7a1&vjs=3",
-      "urls": "IOS Developer"
+      "name": "IOS Developer",
+      "company": "Hays",
+      "urls": "https://pl.indeed.com//rc/clk?jk=e6bd5b7e408cbb4d&fccid=31670bef3ae6497b&vjs=3"
     },
     {
-      "name": "Hays",
-      "company": "https://pl.indeed.com//rc/clk?jk=e6bd5b7e408cbb4d&fccid=31670bef3ae6497b&vjs=3",
-      "urls": "Senior Front-End Developer"
+      "name": "Senior Front-End Developer",
+      "company": "Webchefs",
+      "urls": "https://pl.indeed.com//rc/clk?jk=d1154792805ef342&fccid=458dd1bc5b9928b4&vjs=3"
     },
     {
-      "name": "Webchefs",
-      "company": "https://pl.indeed.com//rc/clk?jk=d1154792805ef342&fccid=458dd1bc5b9928b4&vjs=3",
-      "urls": "Senior .Net Developer"
+      "name": "Senior .Net Developer",
+      "company": "Eagle Eye Staffing Sp. Z.o.o.",
+      "urls": "https://pl.indeed.com//rc/clk?jk=0afdee461b0f4582&fccid=088c5427b376f0ee&vjs=3"
     },
     {
-      "name": "Eagle Eye Staffing Sp. Z.o.o.",
-      "company": "https://pl.indeed.com//rc/clk?jk=0afdee461b0f4582&fccid=088c5427b376f0ee&vjs=3",
-      "urls": "Senior Java Developer"
+      "name": "Senior Java Developer",
+      "company": "Devire",
+      "urls": "https://pl.indeed.com//rc/clk?jk=409cfacdf646944f&fccid=dac7798bc9cb142c&vjs=3"
     },
     {
-      "name": "Devire",
-      "company": "https://pl.indeed.com//rc/clk?jk=409cfacdf646944f&fccid=dac7798bc9cb142c&vjs=3",
-      "urls": "Java 8 Full-stack Developer"
+      "name": "Java 8 Full-stack Developer",
+      "company": "Verita HR Polska Sp. z o.o.",
+      "urls": "https://pl.indeed.com//rc/clk?jk=b20dec846e560f66&fccid=e265b982603f34bc&vjs=3"
     },
     {
-      "name": "Verita HR Polska Sp. z o.o.",
-      "company": "https://pl.indeed.com//rc/clk?jk=b20dec846e560f66&fccid=e265b982603f34bc&vjs=3",
-      "urls": "C/C++ Windows Driver Developer (f/m/x) (relocated to Germany..."
+      "name": "C/C++ Windows Driver Developer (f/m/x) (relocated to Germany...",
+      "company": "Avira Operations GmbH & Co. KG",
+      "urls": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0DVAdzec4bw6rQ4FO3PDdwz3gCZ43d7Gsr17jnu3o1g5JTNhwfE3RbVHY0lVPlBBqNPXOIYj1Ezd9hghtzsq8nw-lyWiuVbADOnxDLALfCXrZnGGv7njdcRjzViB5CZFWUKexML_nNhSvnAhN2AopMT433wenNf0uleBQRVoi_BaV0lX6HOZCvJz3BCV4IOXAP7dIpkXRH_CtdVqmPWjhwfM3rT8EgZcVbGc5IvKQMCbEq03keegXhQPFp5IKFwVvwY_10ECJRemnfoTNsN7ZUqcYTwUMr6vvvpDSVw507aw8E-bN48a5p_cMgOll3szFnwZyYbAiBX3iJfxklV6exrnVtmZsaYUZ22XCC28D5bsPC8PZiKghy9Ea8GkEG8dTpivYCMqtty0y8Y5B5yqzGxOUaJaBK0F0UP3WgPmSvIFT8fsPx4DHbvytLfxjAQap7QHcIpcltDig==&p=3&fvj=0&vjs=3"
     },
     {
-      "name": "Avira Operations GmbH & Co. KG",
-      "company": "https://pl.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0DVAdzec4bw6rQ4FO3PDdwz3gCZ43d7Gsr17jnu3o1g5JTNhwfE3RbVHY0lVPlBBqNPXOIYj1Ezd9hghtzsq8nw-lyWiuVbADOnxDLALfCXrZnGGv7njdcRjzViB5CZFWUKexML_nNhSvnAhN2AopMT433wenNf0uleBQRVoi_BaV0lX6HOZCvJz3BCV4IOXAP7dIpkXRH_CtdVqmPWjhwfM3rT8EgZcVbGc5IvKQMCbEq03keegXhQPFp5IKFwVvwY_10ECJRemnfoTNsN7ZUqcYTwUMr6vvvpDSVw507aw8E-bN48a5p_cMgOll3szFnwZyYbAiBX3iJfxklV6exrnVtmZsaYUZ22XCC28D5bsPC8PZiKghy9Ea8GkEG8dTpivYCMqtty0y8Y5B5yqzGxOUaJaBK0F0UP3WgPmSvIFT8fsPx4DHbvytLfxjAQap7QHcIpcltDig==&p=3&fvj=0&vjs=3",
-      "urls": "Senior Full Stack Software Engineer (Java and/or Angular)"
-    },
-    {
-      "name": "",
+      "name": "Senior Full Stack Software Engineer (Java and/or Angular)",
       "company": "EPAM Systems",
       "urls": "https://pl.indeed.com//rc/clk?jk=21cb3a753bdbd2cf&fccid=532afac41b2663f7&vjs=3"
     }
