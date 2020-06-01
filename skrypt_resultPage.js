@@ -9449,43 +9449,9 @@ var datavar={
     }
   ],
   "448": [],
-  "449": [
-    {
-      "name": "Pracownik restauracji McDonald’s Galeria Bronowice",
-      "company": "",
-      "urls": "McDonalds Polska"
-    },
-    {
-      "name": "https://pl.indeed.com//rc/clk?jk=82fdc9f3c353616e&fccid=f753bb1a40104d82&vjs=3",
-      "company": "PRACOWNIK RESTAURACJI",
-      "urls": ""
-    },
-    {
-      "name": "Burger King",
-      "company": "https://pl.indeed.com//rc/clk?jk=f0481d665124e01c&fccid=ce49fb2f9817d26b&vjs=3",
-      "urls": "Doradca Klienta Obag.store Kraków"
-    },
-    {
-      "name": "Obag Polska",
-      "company": "https://pl.indeed.com//rc/clk?jk=ab14958e27470af5&fccid=3e295410d4f7353f&vjs=3",
-      "urls": "Zastępca Kierownika Sklepu"
-    },
-    {
-      "name": "Nanu-Nana Polska Spolka Handlowa Sp. z o.o.",
-      "company": "https://pl.indeed.com//rc/clk?jk=529a52fa5b6416cc&fccid=8934ff1d72264fee&vjs=3",
-      "urls": "Pracownik Restauracji"
-    },
-    {
-      "name": "Grand Kebab",
-      "company": "https://pl.indeed.com//rc/clk?jk=0be8a9bc9d02b793&fccid=c5f3e9a31ed977cc&vjs=3",
-      "urls": "xxx"
-    },
-    {
-      "name": "450",
-      "company": "xxx",
-      "urls": "451"
-    }
-  ],
+  "449": [],
+  "450": [],
+  "451": [],    
   "452": [
     {
       "name": "Dziennikarz / specjalizacja język angielski",
