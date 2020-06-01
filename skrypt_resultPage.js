@@ -7,7 +7,6 @@ window.onload = function()
 	var counter = 0;
 	//data=getJSON();
 	
-	alert(tag);
 	
 	for(var element in outLibrary)//datavar
 	{
