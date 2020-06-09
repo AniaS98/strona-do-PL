@@ -162,4 +162,17 @@ ul{
 	padding:0%;
 }
 
+.button_r{
+	background-color:#ac3338;
+	border:1px solid #c43b3f;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:"Trebuchet MS";
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+	width:30%;
+}
+
 
