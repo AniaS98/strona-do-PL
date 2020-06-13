@@ -3406,13 +3406,7 @@ var datavar={
       "urls": "https://www.praca.pl/fpga-dsp-designer-rekrutacja-online_3393862.html#804d2504dad072a0c45d3924562ce191"
     }
   ],
-  "105": [
-    {
-      "name": "Lekarza specjalista w radiologii i diagnostyki obrazowej - branża medyczna",
-      "company": "LEVEL WORK",
-      "urls": "https://www.praca.pl/lekarza-specjalista-w-radiologii-i-diagnostyki-obrazowej-branza-medyczna_3378812.html#b1175d6ff1a97d35f2648daf19d1ebb9"
-    }
-  ],
+  "105": [],
   "106": [],
   "107": [],
   "108": [],
