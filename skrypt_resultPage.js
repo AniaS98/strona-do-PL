@@ -3407,7 +3407,18 @@ var datavar={
     }
   ],
   "105": [],
-  "106": [],
+  "106": [
+  {
+      "name": "Diagnostyka laboratoryjny - branża medyczna",
+      "company": "LEVEL WORK",
+      "urls": "https://www.linkedin.com/jobs/view/1871616508"
+    },
+ {
+      "name": "Kierownik Sekcji Administracyjno-Technicznej",
+      "company": "Samodzielny Publiczny Zespół Opieki Zdrowotnej w Proszowicach",
+      "urls": "https://www.linkedin.com/jobs/view/1885847778"
+    }
+  ],
   "107": [],
   "108": [],
   "109": [],
