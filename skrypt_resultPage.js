@@ -247,7 +247,18 @@ var datavar={
       "urls": "https://pl.indeed.com/viewjob?jk=f899e98d6395e7ff&fccid=dd616958bd9ddc12&vjs=3"
     }
   ],
-  "7": [],
+  "7": [
+  {
+      "name": "Kierownik Wiertni na powierzchni",
+      "company": "Przedsiębiorstwo Budowy Kopalń PeBeKa S.A.",
+      "urls": "https://www.pracuj.pl/praca/kierownik-wiertni-na-powierzchni-malopolskie,oferta,7521538"
+    },
+	  {
+      "name": "Spróbuj zaaplokować bez oferty!",
+      "company": "Kopalnia Surowców Skalnych „Klęczany” Sp. z o. o.",
+      "urls": "http://www.ksskleczany.pl/content.php?body=article&name=oferta-pracy&lang=pl"
+    }
+  ],
   "8": [],
   "9": [],
   "10": [],
@@ -1608,7 +1619,18 @@ var datavar={
       "urls": "https://www.praca.pl/pracownik-fizyczny-recykling-kabli-miedzianych_3376228.html#ceefa5070190b65ebfde5568dbc9c916"
     }
   ],
-  "40": [],
+  "40": [
+  {
+      "name": "Inżynier procesu",
+      "company": "LEVEL WORK",
+      "urls": "https://pl.indeed.com/viewjob?jk=ab5740cdb238b055&tk=1eamcf7l714ui000&from=serp&vjs=3"
+    },
+	  {
+      "name": "Kierownik zmianowy zakładu",
+      "company": "Nicromet",
+      "urls": "https://pl.indeed.com/viewjob?jk=55fb1243d3c42325&tk=1eamcf7l714ui000&from=serp&vjs=3"
+    }
+  ],
   "41": [],
   "42": [
     {
@@ -7264,7 +7286,28 @@ var datavar={
   "339": [],
   "340": [],
   "341": [],
-  "342": [],
+  "342": [
+  {
+      "name": "KONKURS NA STANOWISKO GŁÓWNEGO SPECJALISTA DS. BADAŃ",
+      "company": "Instytut Metali Nieżelaznych Łukasiewicz",
+      "urls": "http://bip.imn.gliwice.pl/content/177/konkurs_na_stanowisko_glownego_specjalista_ds._badan_data_ogloszenia_1.06.2020_legnica/"
+    },
+	  {
+      "name": "KONKURS NA STANOWISKO SPECJALISTY TECHNICZNEGO W ZAKŁADZIE ZAAWANSOWANYCH TECHNOLOGII MATERIAŁOWYCH",
+      "company": "Instytut Metali Nieżelaznych Łukasiewicz",
+      "urls": "http://bip.imn.gliwice.pl/content/175/konkurs_na_stanowisko_specjalisty_technicznego_w_zakladzie_zaawansowanych_technologii_materialowych_gliwice_28.05.2020"
+    },
+	   {
+      "name": "Konkurs na stanowisko Specjalisty ds. Obsługi Projektów w Dziale Planowania i Koordynacji Projektów",
+      "company": "Instytut Metali Nieżelaznych Łukasiewicz",
+      "urls": "http://bip.imn.gliwice.pl/content/172/konkurs_na_stanowisko_specjalisty_ds._obslugi_projektow_w_dziale_planowania_i_organizacji_projektow_gliwice_27.05.2020"
+    },
+	  {
+      "name": "KONKURS NA STANOWISKO SPECJALISTY W ZAKŁADZIE HYDROMETALURGII",
+      "company": "Instytut Metali Nieżelaznych Łukasiewicz",
+      "urls": "http://bip.imn.gliwice.pl/content/168/konkurs_na_stanowisko_specjalisty__w_zakladzie_hydrometalurgii"
+    }
+  ],
   "343": [
     {
       "name": "Referent ds. Spedycji Krajowej",
